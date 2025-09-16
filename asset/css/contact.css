@@ -1,0 +1,58 @@
+/* formulaire */
+
+.formulaire form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background: rgb(255,255,255);
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 32px 24px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire label {
+    font-weight: bold;
+    color: #5B4B49;
+    margin-bottom: 6px;
+}
+
+.formulaire input,
+.formulaire textarea {
+    padding: 10px 14px;
+    border: 1.5px solid #C493B0;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+}
+
+.formulaire input:focus,
+.formulaire textarea:focus {
+    border-color: #5B4B49;
+    outline: none;
+    box-shadow: 0 0 0 2px #C493B033;
+}
+
+.formulaire textarea {
+    min-height: 100px;
+}
+
+
+.formulaire button {
+    background: #C493B0;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    font-size: 1.1rem;   
+    box-shadow: 0 2px 8px rgba(91, 75, 73, 0.08);
+}
+
+.formulaire button:hover {
+    background: #5B4B49;
+    color: #C493B0;
+    box-shadow: 0 4px 16px rgba(91, 75, 73, 0.18);
+}
