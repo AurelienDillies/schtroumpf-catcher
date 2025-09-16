@@ -1,0 +1,88 @@
+/* presentation */
+
+.presentation {
+    max-width: 60%;
+    text-align: center;
+    padding: 2.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+}
+
+.presentation h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.presentation p {
+    font-size: 1.5rem;
+}
+
+/* statistique */
+.stat {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px auto;
+}
+
+.attraper,
+.restant {
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    min-width: 220px;
+    width: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.attraper p,
+.restant p {
+    flex-grow: 1;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attraper {
+    background: linear-gradient(to bottom, #ff0000 5%, #000000 85%);
+}
+
+.restant {
+    background: linear-gradient(to bottom, #2600ff 5%, #000000 85%);
+}
+
+/* accès à la carte */
+.acces {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.btn-acces {
+    display: inline-block;
+    background-color: #C493B0;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 24px;
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(91, 75, 73, 0.08);
+}
+
+.btn-acces:hover {
+    background-color: #5B4B49;
+    color: #C493B0;
+    box-shadow: 0 6px 20px rgba(91, 75, 73, 0.18);
+}
