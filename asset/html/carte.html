@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carte</title>
 
+    <link rel="icon" type="image/png" href="../image/logo.png">
+
+    <link rel="stylesheet" href="../css/head-foot.css">
+
     <!--initialisation de la carte leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -22,6 +26,23 @@
     
 </head>
 <body>
+    <header>
+        <div class="header-logo">
+            <a href="../html/index.html"><img src="../image/logo.png" alt="logo du site"></a>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Acceuil</a></li>
+                    <li><a href="./carte.html">Carte</a></li>
+                    <li><a href="./ajout.html">Ajout d'un schtroumpf</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
     <div id="map"></div> <!--div ou la map est insérée-->
 
     <script>
@@ -75,6 +96,22 @@
         }
 
         fetchJSONData();
+    </script>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p><span id="current-year"></span> &copy; Schtroumpf Catcher. Tous droits réservés.</p>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        // Mise à jour de l'année dans le footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>
