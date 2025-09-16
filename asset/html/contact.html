@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>acceuil</title>
+    <title>Contact</title>
 
     <link rel="icon" type="image/png" href="../image/logo.png">
 
     <link rel="stylesheet" href="../css/head-foot.css">
-    <link rel="stylesheet" href="../css/acceuil.css">
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 
 <body>
@@ -30,22 +30,19 @@
     </header>
 
     <main>
-        <div class="presentation">
-            <h1>Bienvenue sur schtroumpf catcheur</h1>
-            <p>Rencontre ton schtroumpf le plus proche de toi</p>
-        </div>
-        <div class="stat">
-            <div class="attraper">
-                <h2>Schtroumpf attraper</h2>
-                <p>0</p>
-            </div>
-            <div class="restant">
-                <h2>Schtroumpf restant</h2>
-                <p>0</p>
-            </div>
-        </div>
-        <div class="acces">
-            <a class="btn-acces" href="./carte.html">Voir la carte</a>
+        <div class="formulaire">
+            <form action="">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
         </div>
     </main>
 
