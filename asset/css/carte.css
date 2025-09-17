@@ -1,0 +1,9 @@
+/* main prend tout l’espace restant entre header et footer */
+main {
+    display: flex;
+}
+
+/* conteneur de la carte */
+#map {
+    width: 100%;   
+}
