@@ -1,15 +1,21 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* formulaire */
 
 .formulaire form {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
     border: 2px solid #000;
     border-radius: 20px;
     padding: 32px 24px;
-    max-width: 600px;
-    margin: 2rem auto;
+    width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -41,18 +47,20 @@
 
 
 .formulaire button {
-    background: #C493B0;
-    color: #000;
+    display: inline-block;
+    background-color: #e63946;
+    color: #fff;
     font-weight: bold;
+    font-size: 1.1rem;
+    padding: 12px 32px;
     border: none;
-    border-radius: 8px;
-    padding: 12px 0;
-    font-size: 1.1rem;   
-    box-shadow: 0 2px 8px rgba(91, 75, 73, 0.08);
+    border-radius: 24px;
+    box-shadow: 0 4px 16px rgba(30, 58, 92, 0.08);
+    transition: background 0.3s, color 0.3s;
 }
 
 .formulaire button:hover {
-    background: #5B4B49;
-    color: #C493B0;
-    box-shadow: 0 4px 16px rgba(91, 75, 73, 0.18);
+    background-color: #1e3a5c;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(30, 58, 92, 0.18);
 }
