@@ -11,23 +11,22 @@ main {
     max-width: 60%;
     text-align: center;
     padding: 2.5rem;
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     margin: 20px auto;
 }
 
 .presentation h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #1e3a5c; 
+    color: #1e3a5c;
 }
 
 .presentation p {
     font-size: 1.5rem;
-    color: #e63946; 
+    color: #e63946;
 }
 
 /* statistique */
@@ -41,7 +40,7 @@ main {
 .attraper,
 .restant {
     border-radius: 20px;
-    color: #1e3a5c; 
+    color: #1e3a5c;
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
@@ -53,6 +52,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.attraper:hover,
+.restant:hover {
+    transform: scale(1.08);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 
 .attraper {
