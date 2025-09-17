@@ -20,7 +20,7 @@
     <!--style minimal de la carte (obligatoire)-->
     <style>
         #map {
-            height: 80vh;
+            height: 86vh;
         }
     </style>
 
@@ -48,7 +48,7 @@
 
         <script>
             // initialiser la carte 
-            var map = L.map('map').setView([0, 0], 2); // position et zoom de la carte au début. Mettre les coordonées GPS de l'utilisateur?
+            var map = L.map('map').setView([46.5, 2.5], 6); // position et zoom de la carte au début. Mettre les coordonées GPS de l'utilisateur?
 
             L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
                 attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
@@ -71,8 +71,9 @@
                 popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
             });
 
+            //---------------- recupérer les données schtroumpfs et les afficher
             function fetchJSONData() {
-                fetch('../schtroumpfs.json')
+                fetch('../js/schtroumpfs.json')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -100,6 +101,9 @@
         </script>
     </main>
 
+
+
+    <!-----------------------Footer----------------------------->
     <footer>
         <div class="copyright">
             <p><span id="current-year"></span> &copy; Schtroumpf Catcher. Tous droits réservés.</p>

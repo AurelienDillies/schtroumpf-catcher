@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="../image/logo.png">
 
     <link rel="stylesheet" href="../css/head-foot.css">
+    <link rel="stylesheet" href="../css/ajout.css">
 
     <!--initialisation de la carte leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,16 +19,18 @@
     <!---------------------------------------------------------------------------->
 
     <!--style minimal de la carte (obligatoire)-->
-
     <style>
-        #map {
-            height: 80vh;
+        #mapAjout {
+            height: 86vh;
             width: 70vw;
         }
     </style>
+
+
 </head>
 
 <body>
+    <!-------------------Header----------------->
     <header>
         <div class="header-logo">
             <a href="../html/index.html"><img src="../image/logo.png" alt="logo du site"></a>
@@ -43,62 +46,159 @@
             </nav>
         </div>
     </header>
+    <!----------------------------------------->
 
     <main>
-        <div id="map"></div>
+        <div id="container-ajout"> <!--contient div carte et div formulaire-->
 
-        <script>
-            var map = L.map('map').setView([0, 0], 2);
+            <div id="mapAjout"></div>
 
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-                attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-            }).addTo(map);
+            <script>
 
-            var pointBleu = L.icon({
-                iconUrl: '../image/point-bleu.png',
+                // ---------------- initialiser carte ------------------
+                var mapAjout = L.map('mapAjout').setView([46.5, 2.5], 10);
 
-                iconSize: [38, 95], // size of the icon
-                iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-                popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
-            });
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+                }).addTo(mapAjout);
 
-            var pointRouge = L.icon({
-                iconUrl: '../image/point-rouge.png',
+                // --------------- Initialise les icones possibles -------
+                var pointBleu = L.icon({
+                    iconUrl: '../image/point-bleu.png',
 
-                iconSize: [38, 95], // size of the icon
-                iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-                popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
-            });
+                    iconSize: [38, 95], // size of the icon
+                    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+                    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+                });
 
-            function fetchJSONData() {
-                fetch('../schtroumpfs.json')
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error(`HTTP error! Status: ${response.status}`);
-                        }
-                        return response.json();
-                    })
-                    .then(data => {
-                        data.forEach(schtroumpf => {
-                            if (schtroumpf.grand == true) {
-                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointRouge })
-                                    .addTo(map)
-                                    .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
+                var pointRouge = L.icon({
+                    iconUrl: '../image/point-rouge.png',
+
+                    iconSize: [38, 95], // size of the icon
+                    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+                    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+                });
+
+                var pointBlanc = L.icon({
+                    iconUrl: '../image/point-blanc.png',
+
+                    iconSize: [38, 95], // size of the icon
+                    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+                    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+                });
+
+                // récupère les données des schtroumpfs en json et les affiche sur la carte
+
+                function fetchJSONData() {
+                    fetch('../js/schtroumpfs.json')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`HTTP error! Status: ${response.status}`);
                             }
-                            else {
-                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointBleu })
-                                    .addTo(map)
-                                    .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
-                            }
-                        });
-                    })
-                    .catch(error => console.error('Failed to fetch data:', error));
-            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            data.forEach(schtroumpf => {
+                                if (schtroumpf.grand == true) {
+                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointRouge })
+                                        .addTo(mapAjout)
+                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
+                                }
+                                else {
+                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointBleu })
+                                        .addTo(mapAjout)
+                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
+                                }
+                            });
+                        })
+                        .catch(error => console.error('Failed to fetch data:', error));
+                }
 
-            fetchJSONData();
-        </script>
+                fetchJSONData();
+
+
+                //------------ Point déplacable nouveau schtroumpf -----------------
+
+                mapAjout.invalidateSize(); 
+
+                var marker = L.marker([46.5, 2.5], {
+                    icon: pointBlanc,
+                    draggable: true
+                }).addTo(mapAjout);
+
+
+                marker.on("drag", function(e) {
+                    var marker = e.target;
+                    var position = marker.getLatLng();
+                    document.getElementById("latitude").value = position.lat;
+                    document.getElementById("longitude").value = position.lng;
+                });
+
+
+                // ---------- ajouter données nouveau schtroumpf en appuyant sur le bouton
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    document.getElementById('boutonAjouter').addEventListener('click', function () {
+
+                        const latitude = document.getElementById('latitude').value;
+                        const longitude = document.getElementById('longitude').value;
+                        const nom = document.getElementById('nom').value;
+                        const grand = document.getElementById('grand').checked;
+
+                        const newSchtroumpf = {
+                            latitude: parseFloat(latitude),
+                            longitude: parseFloat(longitude),
+                            nom: nom,
+                            grand: grand
+                        };
+
+                        let data = JSON.parse(localStorage.getItem('schtroumpfs')) || [];
+                        data.push(newSchtroumpf);
+                        localStorage.setItem('schtroumpfs', JSON.stringify(data));
+                        
+                        alert("Schtroumpf ajouté !");
+
+                        setTimeout('', 3000);
+                        location.reload();
+                    });
+                });
+
+
+            </script>
+
+            <div id="formulaire-ajout">
+                <div >
+                    <h4 id ="titre-formulaire">Ajouter un Schtroumpf</h4>
+                    <p id ="sous-titre">Déplacez le marqueur pour choisir la position</p>
+                </div>
+                <form>
+                    <div class="element-formulaire">
+                        <label for="latitude">Latitude</label>
+                        <input type="text" id="latitude" name="latitude" readonly>
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="longitude">Longitude</label>
+                        <input type="text" id="longitude" name="longitude" readonly>
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="nom">Nom du Schtroumpf :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom du schtroumpf">
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="grand">Grand Schtroumpf ? :</label>
+                        <input type="checkbox" id="grand" name="grand">
+                    </div>
+                    <div class="centre">
+                        <button type="button" id="boutonAjouter">Ajouter</button>
+                    </div>
+            </div>
+        </div>
+
+
     </main>
 
+
+    <!-----------------------Footer----------------------------->
     <footer>
         <div class="copyright">
             <p><span id="current-year"></span> &copy; Schtroumpf Catcher. Tous droits réservés.</p>

@@ -1,0 +1,51 @@
+#carte-ajout {
+    flex: 2;
+}
+
+#formulaire-ajout {
+    flex: 1;
+    min-width: 15vw;
+}
+
+#container-ajout {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 100vw;
+    gap: 2vw;
+}
+
+#titre-formulaire {
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 3vh;
+}
+
+#sous-titre {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 8vh;
+}
+
+.element-formulaire {
+    text-align: right;
+    padding-right: 5vw;
+    padding-top: 3vh;
+    font-size: 1.2rem;
+
+}
+
+#boutonAjouter {
+    width: 4.5vw;
+    height: 4.5vh;
+    border-radius: 10%;
+    font-size: 1.25rem;
+    
+}
+
+.centre {
+    text-align: center;
+    padding-top: 15vh;
+}
