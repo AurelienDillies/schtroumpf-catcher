@@ -48,7 +48,7 @@
 
         <script>
             // initialiser la carte 
-            var map = L.map('map').setView([0, 0], 2); // position et zoom de la carte au début. Mettre les coordonées GPS de l'utilisateur?
+            var map = L.map('map').setView([47, 4], 6); // position et zoom de la carte au début. Mettre les coordonées GPS de l'utilisateur?
 
             L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
                 attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
@@ -72,7 +72,7 @@
             });
 
             function fetchJSONData() {
-                fetch('../schtroumpfs.json')
+                fetch('../js/schtroumpfs.json')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error(`HTTP error! Status: ${response.status}`);
