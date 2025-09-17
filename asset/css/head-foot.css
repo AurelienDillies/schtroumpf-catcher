@@ -5,6 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+  font-family: 'SF Slapstick Comic';
+  src: url('../font/sf_slapstick_comic/SF\ Slapstick\ Comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
     line-height: 1.6;
@@ -13,6 +19,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'SF Slapstick Comic', sans-serif;  
 }
 
 main {
@@ -87,6 +94,10 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     border-top: 4px solid #e63946;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-nav ul {
