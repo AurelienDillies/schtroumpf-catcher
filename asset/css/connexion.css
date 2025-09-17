@@ -1,52 +1,55 @@
+/* Mise en page principale */
 main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
-/* formulaire */
-
-.formulaire-support form {
+/* Formulaire Connexion & Inscription */
+.formulaire-connexion form,
+.formulaire-inscription form {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 18px;
     background: rgb(255, 255, 255);
     border: 2px solid #000;
     border-radius: 20px;
     padding: 32px 24px;
-    width: 500px;
+    width: 400px;
+    height: 450px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.formulaire-support label {
+/* Labels */
+.formulaire-connexion label,
+.formulaire-inscription label {
     font-weight: bold;
     color: #5B4B49;
     margin-bottom: 6px;
 }
 
-.formulaire-support input,
-.formulaire-support textarea {
+/* Champs */
+.formulaire-connexion input,
+.formulaire-inscription input {
     padding: 10px 14px;
     border: 1.5px solid #C493B0;
     border-radius: 8px;
     font-size: 1rem;
-    resize: none;
 }
 
-.formulaire-support input:focus,
-.formulaire-support textarea:focus {
+/* Focus sur champs */
+.formulaire-connexion input:focus,
+.formulaire-inscription input:focus {
     border-color: #5B4B49;
     outline: none;
     box-shadow: 0 0 0 2px #C493B033;
 }
 
-.formulaire-support textarea {
-    min-height: 100px;
-}
-
-
-.formulaire-support button {
+/* Boutons */
+.formulaire-connexion button,
+.formulaire-inscription button {
     display: inline-block;
     background-color: #e63946;
     color: #fff;
@@ -57,9 +60,12 @@ main {
     border-radius: 24px;
     box-shadow: 0 4px 16px rgba(30, 58, 92, 0.08);
     transition: background 0.3s, color 0.3s;
+    margin-top: auto; /* 🔥 pousse le bouton vers le bas */
 }
 
-.formulaire-support button:hover {
+/* Effet hover */
+.formulaire-connexion button:hover,
+.formulaire-inscription button:hover {
     background-color: #1e3a5c;
     color: #fff;
     box-shadow: 0 6px 20px rgba(30, 58, 92, 0.18);

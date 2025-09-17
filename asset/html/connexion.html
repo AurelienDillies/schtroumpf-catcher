@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Connexion / Inscription</title>
 
     <link rel="icon" type="image/png" href="../image/logo.png">
 
     <link rel="stylesheet" href="../css/head-foot.css">
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/connexion.css">
 </head>
 
 <body>
@@ -33,21 +33,35 @@
     </header>
 
     <main>
-        <div class="formulaire-support">
-            <form action="">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
+    
+    <div class="formulaire-connexion">
+        <form action="">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
 
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
 
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" required></textarea>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
 
-                <button type="submit">Envoyer</button>
-            </form>
-        </div>
-    </main>
+    <div class="formulaire-inscription">
+        <form action="">
+            <label for="new-username">Nom d'utilisateur :</label>
+            <input type="text" id="new-username" name="new-username" required>
+
+            <label for="new-email">Email :</label>
+            <input type="email" id="new-email" name="new-email" required>
+
+            <label for="new-password">Mot de passe :</label>
+            <input type="password" id="new-password" name="new-password" required>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+    
+</main>
 
     <footer>
         <div class="copyright">
