@@ -3182,5 +3182,13 @@
         "latitude": 0.0,
         "grand": true,
         "capture": true
+    },
+    {
+        "id": 1758188249692,
+        "nom": "Schtroumpf Digital",
+        "longitude": 3.067411780357361,
+        "latitude": 50.6352030447249,
+        "grand": true,
+        "capture": false
     }
 ]
