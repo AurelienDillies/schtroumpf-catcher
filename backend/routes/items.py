@@ -1,36 +1,27 @@
-from fastapi import APIRouter, HTTPException
-from .. import crud, models
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
+from .. import crud, models, database, schemas
 
 router = APIRouter(prefix="/items", tags=["items"])
 
-@router.get("/", response_model=list[models.Item])
-def list_items():
-    return crud.get_items()
-
-@router.get("/{item_id}", response_model=models.Item)
-def read_item(item_id: int):
-    item = crud.get_item(item_id)
-    if not item:
-        raise HTTPException(status_code=404, detail="Item non trouvé")
-    return item
-
-@router.post("/", response_model=models.Item)
-def create_item(item: models.Item):
+def get_db():
+    db = database.SessionLocal()
     try:
-        return crud.create_item(item)
-    except ValueError as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        yield db
+    finally:
+        db.close()
 
-@router.put("/{item_id}", response_model=models.Item)
-def update_item(item_id: int, new_item: models.Item):
-    updated = crud.update_item(item_id, new_item)
+@router.get("/", response_model=list[schemas.Schtroumpf])
+def list_items(db: Session = Depends(get_db)):
+    return crud.get_schtroumpfs(db)
+
+@router.post("/", response_model=schemas.Schtroumpf)
+def create_item(schtroumpf_in: schemas.SchtroumpfCreate, db: Session = Depends(get_db)):
+    return crud.create_schtroumpf(db, schtroumpf_in)
+
+@router.put("/{item_id}/capture", response_model=schemas.Schtroumpf)
+def capture_item(item_id: int, db: Session = Depends(get_db)):
+    updated = crud.update_capture(db, item_id)
     if not updated:
-        raise HTTPException(status_code=404, detail="Item non trouvé")
+        raise HTTPException(status_code=404, detail="Schtroumpf non trouvé")
     return updated
-
-@router.delete("/{item_id}")
-def delete_item(item_id: int):
-    deleted = crud.delete_item(item_id)
-    if not deleted:
-        raise HTTPException(status_code=404, detail="Item non trouvé")
-    return {"message": "Item supprimé avec succès"}

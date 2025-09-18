@@ -57,22 +57,27 @@
             <div id="mapAjout"></div>
 
             <script>
-
-                // ---------------- initialiser carte ------------------
+                // Carte d'ajout
                 var mapAjout = L.map('mapAjout', {
-                center: [46.7, 2.8],
-                zoom: 9,
-                minZoom: 1.4,   //  empêche d’aller trop loin
-                maxZoom: 15   //  évite de zoomer trop
-            });
+                    center: [46.7, 2.8],
+                    zoom: 9,
+                    minZoom: 1.4,
+                    maxZoom: 15
+                });
 
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
                     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-                noWrap: true,                // empêche la répétition horizontale
-                bounds: [[-90, -180], [90, 180]] // limite aux coordonnées du globe
+                    noWrap: true,
+                    bounds: [[-90, -180], [90, 180]]
                 }).addTo(mapAjout);
 
-                // --------------- Initialise les icones possibles -------
+                var pointBlanc = L.icon({
+                    iconUrl: '/static/image/point-blanc.png',
+                    iconSize: [38, 95],
+                    iconAnchor: [22, 94],
+                    popupAnchor: [-3, -76]
+                });
+
                 var pointBleu = L.icon({
                     iconUrl: 'static/image/point-bleu.png',
 
@@ -89,110 +94,93 @@
                     popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
                 });
 
-                var pointBlanc = L.icon({
-                    iconUrl: 'static/image/point-blanc.png',
-
-                    iconSize: [38, 95], // size of the icon
-                    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-                    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
-                });
-
-                // récupère les données des schtroumpfs en json et les affiche sur la carte
-
-                function fetchJSONData() {
-                    fetch('./items/')
-                        .then(response => {
-                            if (!response.ok) {
-                                throw new Error(`HTTP error! Status: ${response.status}`);
+                function fetchData() {
+                fetch("http://127.0.0.1:8000/items/")
+                    .then(response => response.json())
+                    .then(data => {
+                        data.forEach(schtroumpf => {
+                            if (!schtroumpf.capture) {
+                                let icon = schtroumpf.grand ? pointRouge : pointBleu;
+                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: icon })
+                                    .addTo(mapAjout)
+                                    .bindPopup(`
+                                        <h3>${schtroumpf.nom}</h3>
+                                        <p>${schtroumpf.description}</p>
+                                        <button onclick="captureSchtroumpf(${schtroumpf.id})">Attraper</button>
+                                    `);
                             }
-                            return response.json();
-                        })
-                        .then(data => {
-                            data.forEach(schtroumpf => {
-                                if (schtroumpf.grand == true) {
-                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointRouge })
-                                        .addTo(mapAjout)
-                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
-                                }
-                                else {
-                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointBleu })
-                                        .addTo(mapAjout)
-                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
-                                }
-                            });
-                        })
-                        .catch(error => console.error('Failed to fetch data:', error));
-                }
+                        });
+                    })
+                    .catch(error => console.error("Failed to fetch data:", error));
+            }
 
-                fetchJSONData();
+            fetchData();
 
-
-                //------------ Point déplacable nouveau schtroumpf -----------------
-
-                mapAjout.invalidateSize(); 
-
-                var marker = L.marker([46.7, 2.8], {
-                    icon: pointBlanc,
-                    draggable: true
-                }).addTo(mapAjout);
-
+                // Marqueur déplaçable
+                var marker = L.marker([46.7, 2.8], { icon: pointBlanc, draggable: true }).addTo(mapAjout);
 
                 marker.on("drag", function(e) {
-                    var marker = e.target;
-                    var position = marker.getLatLng();
-                    document.getElementById("latitude").value = position.lat;
-                    document.getElementById("longitude").value = position.lng;
+                    var pos = e.target.getLatLng();
+                    document.getElementById("latitude").value = pos.lat.toFixed(6);
+                    document.getElementById("longitude").value = pos.lng.toFixed(6);
                 });
 
+                // Si inputs vides au chargement, remplir avec position initiale
+                document.addEventListener("DOMContentLoaded", function () {
+                    var latInput = document.getElementById("latitude");
+                    var lngInput = document.getElementById("longitude");
+                    if (!latInput.value) latInput.value = 46.7;
+                    if (!lngInput.value) lngInput.value = 2.8;
+                });
 
-                // ---------- ajouter données nouveau schtroumpf en appuyant sur le bouton
-
+                // Ajouter un schtroumpf (POST)
                 document.addEventListener("DOMContentLoaded", function () {
                     document.getElementById('boutonAjouter').addEventListener('click', async function () {
                         const latitude = parseFloat(document.getElementById('latitude').value);
                         const longitude = parseFloat(document.getElementById('longitude').value);
-                        const nom = document.getElementById('nom').value;
+                        const nom = document.getElementById('nom').value.trim();
+                        const descriptionInput = document.getElementById('description');
+                        const description = descriptionInput ? descriptionInput.value.trim() : "";
                         const grand = document.getElementById('grand').checked;
-                        const capture = false;
 
-                        // Générer un ID unique basé sur timestamp
-                        const id = Date.now();
+                        // Validation basique
+                        if (!nom) { alert("Donne un nom au schtroumpf."); return; }
+                        if (Number.isNaN(latitude) || Number.isNaN(longitude)) { alert("Position invalide."); return; }
 
                         const newSchtroumpf = {
-                            id: id,
                             nom: nom,
                             latitude: latitude,
                             longitude: longitude,
                             grand: grand,
-                            capture: capture
+                            capture: false,
+                            description: description || "Petit schtroumpf prêt à schtroumpfer des aventures."
                         };
 
                         try {
-                            // 🔹 Envoi vers le backend FastAPI
-                            const response = await fetch('http://127.0.0.1:8000/items/', {
-                                method: 'POST',
-                                headers: {
-                                    'Content-Type': 'application/json'
-                                },
+                            const endpoint = window.location.origin + "/items/"; // s'adapte si host change
+                            const response = await fetch(endpoint, {
+                                method: "POST",
+                                headers: { "Content-Type": "application/json" },
                                 body: JSON.stringify(newSchtroumpf)
                             });
 
                             if (!response.ok) {
-                                const err = await response.json();
-                                throw new Error(err.detail || 'Erreur lors de l’ajout');
+                                // essayer d'afficher le message du serveur si présent
+                                let errText = "Erreur lors de l’ajout";
+                                try { const j = await response.json(); errText = j.detail || JSON.stringify(j); } catch (e) {}
+                                throw new Error(errText);
                             }
 
-                            alert("Schtroumpf ajouté avec succès !");
-                            location.reload(); // recharge la page si besoin
+                            const created = await response.json();
+                            alert("Schtroumpf ajouté avec succès : " + created.nom);
+                            // optionnel : rediriger vers la carte
+                            window.location.href = window.location.origin + "/carte";
                         } catch (error) {
-                            console.error("Erreur :", error);
+                            console.error("Erreur ajout schtroumpf :", error);
                             alert("Impossible d’ajouter le Schtroumpf : " + error.message);
                         }
                     });
                 });
-
-
-
             </script>
 
             <div id="formulaire-ajout">
@@ -212,6 +200,10 @@
                     <div class="element-formulaire">
                         <label for="nom">Nom du Schtroumpf :</label>
                         <input type="text" id="nom" name="nom" placeholder="Nom du schtroumpf">
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="nom">Description du Schtroumpf :</label>
+                        <input type="text" id="description" name="description" placeholder="Description du schtroumpf">
                     </div>
                     <div class="element-formulaire">
                         <label for="grand">Grand Schtroumpf ? :</label>
