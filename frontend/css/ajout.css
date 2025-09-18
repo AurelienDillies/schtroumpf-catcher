@@ -1,53 +1,97 @@
-#carte-ajout {
-    flex: 2;
-    height: 100%; 
-}
-
-#formulaire-ajout {
-    flex: 1;
-    min-width: 280px;  
-    max-width: 400px;  
-    height: 100%; 
+main {
+    display: flex;
 }
 
 #container-ajout {
     display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    width: 100%;  
-    gap: 20px;    
-    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%; 
+}
+
+#mapAjout {
+    flex: 2;
+    min-height: 70vh;
+}
+
+#formulaire-ajout {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    background: #f3f3f3;
+    border-radius: 12px 0px 0px 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    overflow: hidden;
 }
 
 #titre-formulaire {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    margin: 20px 0; 
+    margin: 10px 0 5px 0;
+    color: #333;
 }
 
 #sous-titre {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    color: #666;
 }
 
 .element-formulaire {
-    text-align: right;
-    padding-right: 30px; 
-    margin-top: 20px;    
-    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 1rem;
+}
+
+.element-formulaire label {
+    margin-right: 10px;
+    font-weight: 500;
+    color: #444;
+}
+
+.element-formulaire input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1.5px solid #C493B0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.element-formulaire input:focus {
+    border-color: #5B4B49;
+    outline: none;
+    box-shadow: 0 0 0 2px #C493B033;
 }
 
 #boutonAjouter {
-    width: 140px;   
-    height: 45px; 
-    border-radius: 10%;
-    font-size: 1.1rem; 
+    width: 100%;
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #e63946;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#boutonAjouter:hover {
+    background-color: #1e3a5c;
+    transform: translateY(-2px);
 }
 
 .centre {
     text-align: center;
-    margin-top: auto; 
+    margin-top: auto;
 }

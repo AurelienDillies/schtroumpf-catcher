@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
   font-family: 'SF Slapstick Comic';
   src: url('../font/sf_slapstick_comic/SF\ Slapstick\ Comic.ttf') format('truetype');
@@ -24,43 +25,59 @@ body {
 
 main {
     flex: 1;
-    min-height: 100vh;
 }
 
-/* header */
-
+/* HEADER */
 header {
+    position: relative; 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between; 
     padding: 10px 20px;
     background-color: #1e3a5c;
     border-bottom: 4px solid #e63946;
+}
+
+/* Logo + titre */
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.header-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .header-logo img {
     height: 60px;
 }
 
+.header-logo p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Navigation centrée */
 .header-nav {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    gap: 24px;
+    position: absolute;   
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header-nav ul {
     display: flex;
-    flex-direction: row;
     list-style: none;
-
+    gap: 24px;
 }
 
 .header-nav li {
-    margin: 0 12px;
     padding: 4px 8px;
     border-radius: 8px;
+    transition: background 0.3s, box-shadow 0.3s;
 }
 
 .header-nav li:hover {
@@ -80,12 +97,13 @@ header {
     color: #fff;
 }
 
+/* Connexion */
 .connexion img {
     height: 55px;
 }
 
-/* footer */
 
+/* FOOTER */
 footer {
     background-color: #1e3a5c;
     color: #fff;

@@ -1,8 +1,25 @@
 main {
+    position: relative; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px; 
+    bottom: -10px;
+    background-image: url("../../static/image/smurf_village.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: -1;
 }
 
 /* presentation */
@@ -11,9 +28,9 @@ main {
     max-width: 60%;
     text-align: center;
     padding: 2.5rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(3px);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     margin: 20px auto;
 }

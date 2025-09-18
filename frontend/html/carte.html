@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="static/image/logo.png">
 
     <link rel="stylesheet" href="static/css/head-foot.css">
+    <link rel="stylesheet" href="static/css/carte.css">
 
     <!--initialisation de la carte leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,29 +19,20 @@
     <!---------------------------------------------------------------------------->
 
     <!--style minimal de la carte (obligatoire)-->
-    <style>
-        #map {
-            height: 82vh;
-        }
-        main {
-            min-height: 0vh;
-        }
-        body {
-            min-height: 100vh;
-        }
-    </style>
-
 </head>
 
 <body>
     <header>
         <div class="header-logo">
-            <a href="static/html/index"><img src="static/image/logo.png" alt="logo du site"></a>
+            <a href="static/html/index.html">
+                <img src="static/image/logo.png" alt="logo du site">
+                <p>schtroumpf catcher</p>
+            </a>
         </div>
         <div class="header-nav">
             <nav>
                 <ul>
-                    <li><a href="./">Acceuil</a></li>
+                    <li><a href="./">Accueil</a></li>
                     <li><a href="./carte">Carte</a></li>
                     <li><a href="./ajout">Ajout d'un schtroumpf</a></li>
                     <li><a href="./contact">Contact</a></li>
@@ -57,11 +49,19 @@
 
         <script>
             // initialiser la carte 
-            var map = L.map('map').setView([46.5, 2.5], 6); // position et zoom de la carte au début. Mettre les coordonées GPS de l'utilisateur?
+            var map = L.map('map', {
+                center: [46.5, 2.5],
+                zoom: 6,
+                minZoom: 1.4,   //  empêche d’aller trop loin
+                maxZoom: 15   //  évite de zoomer trop
+            });
 
             L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-                attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-            }).addTo(map); // choisir le style graphique de la carte
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                noWrap: true,                // empêche la répétition horizontale
+                bounds: [[-90, -180], [90, 180]] // limite aux coordonnées du globe
+            }).addTo(map);
+
 
             // initialiser les points
             var pointBleu = L.icon({
@@ -156,4 +156,5 @@
         document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>

@@ -20,16 +20,7 @@
 
     <!--style minimal de la carte (obligatoire)-->
     <style>
-        #mapAjout {
-            height: 82vh;
-            width: 70vw;
-        }
-        main {
-            min-height: 0vh;
-        }
-        body {
-            min-height: 100vh;
-        }
+    
     </style>
 
 
@@ -39,12 +30,15 @@
     <!-------------------Header----------------->
     <header>
         <div class="header-logo">
-            <a href="static/html/index"><img src="static/image/logo.png" alt="logo du site"></a>
+            <a href="static/html/index.html">
+                <img src="static/image/logo.png" alt="logo du site">
+                <p>schtroumpf catcher</p>
+            </a>
         </div>
         <div class="header-nav">
             <nav>
                 <ul>
-                    <li><a href="./">Acceuil</a></li>
+                    <li><a href="./">Accueil</a></li>
                     <li><a href="./carte">Carte</a></li>
                     <li><a href="./ajout">Ajout d'un schtroumpf</a></li>
                     <li><a href="./contact">Contact</a></li>
@@ -65,10 +59,17 @@
             <script>
 
                 // ---------------- initialiser carte ------------------
-                var mapAjout = L.map('mapAjout').setView([46.5, 2.5], 10);
+                var mapAjout = L.map('mapAjout', {
+                center: [46.7, 2.8],
+                zoom: 9,
+                minZoom: 1.4,   //  empêche d’aller trop loin
+                maxZoom: 15   //  évite de zoomer trop
+            });
 
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-                    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+                    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                noWrap: true,                // empêche la répétition horizontale
+                bounds: [[-90, -180], [90, 180]] // limite aux coordonnées du globe
                 }).addTo(mapAjout);
 
                 // --------------- Initialise les icones possibles -------
@@ -130,7 +131,7 @@
 
                 mapAjout.invalidateSize(); 
 
-                var marker = L.marker([46.5, 2.5], {
+                var marker = L.marker([46.7, 2.8], {
                     icon: pointBlanc,
                     draggable: true
                 }).addTo(mapAjout);
