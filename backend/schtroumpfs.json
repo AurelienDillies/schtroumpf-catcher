@@ -1,0 +1,3186 @@
+[
+    {
+        "nom": "Schtroumpf Farceur",
+        "latitude": 48.412381,
+        "longitude": 2.673945,
+        "grand": false,
+        "id": 1,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Farceur",
+        "latitude": 48.412381,
+        "longitude": 2.673945,
+        "grand": false,
+        "id": 197,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grognon",
+        "latitude": 48.466512,
+        "longitude": 2.592314,
+        "grand": false,
+        "id": 2,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grognon",
+        "latitude": 48.466512,
+        "longitude": 2.592314,
+        "grand": false,
+        "id": 198,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Joyeux",
+        "latitude": 48.345927,
+        "longitude": 2.741508,
+        "grand": true,
+        "id": 3,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Joyeux",
+        "latitude": 48.345927,
+        "longitude": 2.741508,
+        "grand": true,
+        "id": 199,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Coquet",
+        "latitude": 48.391204,
+        "longitude": 2.523119,
+        "grand": false,
+        "id": 4,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Coquet",
+        "latitude": 48.391204,
+        "longitude": 2.523119,
+        "grand": false,
+        "id": 200,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bricoleur",
+        "latitude": 48.586231,
+        "longitude": 1.812457,
+        "grand": false,
+        "id": 5,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bricoleur",
+        "latitude": 48.586231,
+        "longitude": 1.812457,
+        "grand": false,
+        "id": 201,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Poète",
+        "latitude": 48.642518,
+        "longitude": 1.75642,
+        "grand": false,
+        "id": 6,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Poète",
+        "latitude": 48.642518,
+        "longitude": 1.75642,
+        "grand": false,
+        "id": 202,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Musicien",
+        "latitude": 48.512904,
+        "longitude": 1.669132,
+        "grand": false,
+        "id": 7,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Musicien",
+        "latitude": 48.512904,
+        "longitude": 1.669132,
+        "grand": false,
+        "id": 203,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Gourmand",
+        "latitude": 47.928114,
+        "longitude": 2.463029,
+        "grand": false,
+        "id": 8,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Gourmand",
+        "latitude": 47.928114,
+        "longitude": 2.463029,
+        "grand": false,
+        "id": 204,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rêveur",
+        "latitude": 47.836209,
+        "longitude": 2.364582,
+        "grand": false,
+        "id": 9,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rêveur",
+        "latitude": 47.836209,
+        "longitude": 2.364582,
+        "grand": false,
+        "id": 205,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Timide",
+        "latitude": 47.989341,
+        "longitude": 2.521447,
+        "grand": false,
+        "id": 10,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Timide",
+        "latitude": 47.989341,
+        "longitude": 2.521447,
+        "grand": false,
+        "id": 206,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sportif",
+        "latitude": 49.403281,
+        "longitude": 3.021445,
+        "grand": false,
+        "id": 11,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sportif",
+        "latitude": 49.403281,
+        "longitude": 3.021445,
+        "grand": false,
+        "id": 207,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Maladroit",
+        "latitude": 49.367552,
+        "longitude": 2.903288,
+        "grand": false,
+        "id": 12,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Maladroit",
+        "latitude": 49.367552,
+        "longitude": 2.903288,
+        "grand": false,
+        "id": 208,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Savant",
+        "latitude": 49.482113,
+        "longitude": 3.067591,
+        "grand": false,
+        "id": 13,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Savant",
+        "latitude": 49.482113,
+        "longitude": 3.067591,
+        "grand": false,
+        "id": 209,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Curieux",
+        "latitude": 48.12531,
+        "longitude": -1.986942,
+        "grand": false,
+        "id": 14,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Curieux",
+        "latitude": 48.12531,
+        "longitude": -1.986942,
+        "grand": false,
+        "id": 210,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Téméraire",
+        "latitude": 48.163422,
+        "longitude": -2.143881,
+        "grand": false,
+        "id": 15,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Téméraire",
+        "latitude": 48.163422,
+        "longitude": -2.143881,
+        "grand": false,
+        "id": 211,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rusé",
+        "latitude": 48.071955,
+        "longitude": -2.058319,
+        "grand": false,
+        "id": 16,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rusé",
+        "latitude": 48.071955,
+        "longitude": -2.058319,
+        "grand": false,
+        "id": 212,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sage",
+        "latitude": 44.519203,
+        "longitude": -0.952118,
+        "grand": false,
+        "id": 17,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sage",
+        "latitude": 44.519203,
+        "longitude": -0.952118,
+        "grand": false,
+        "id": 213,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rapide",
+        "latitude": 44.381902,
+        "longitude": -1.104523,
+        "grand": false,
+        "id": 18,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rapide",
+        "latitude": 44.381902,
+        "longitude": -1.104523,
+        "grand": false,
+        "id": 214,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mystérieux",
+        "latitude": 44.612441,
+        "longitude": -0.678334,
+        "grand": false,
+        "id": 19,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mystérieux",
+        "latitude": 44.612441,
+        "longitude": -0.678334,
+        "grand": false,
+        "id": 215,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Charmant",
+        "latitude": 46.691204,
+        "longitude": 2.673551,
+        "grand": false,
+        "id": 20,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Charmant",
+        "latitude": 46.691204,
+        "longitude": 2.673551,
+        "grand": false,
+        "id": 216,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Aventurier",
+        "latitude": 46.812394,
+        "longitude": 2.781204,
+        "grand": false,
+        "id": 21,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Aventurier",
+        "latitude": 46.812394,
+        "longitude": 2.781204,
+        "grand": false,
+        "id": 217,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inventif",
+        "latitude": 46.923184,
+        "longitude": 2.894512,
+        "grand": false,
+        "id": 22,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inventif",
+        "latitude": 46.923184,
+        "longitude": 2.894512,
+        "grand": false,
+        "id": 218,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rieur",
+        "latitude": 46.745912,
+        "longitude": 2.612394,
+        "grand": false,
+        "id": 23,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rieur",
+        "latitude": 46.745912,
+        "longitude": 2.612394,
+        "grand": false,
+        "id": 219,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Discret",
+        "latitude": 46.834512,
+        "longitude": 2.723184,
+        "grand": false,
+        "id": 24,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Discret",
+        "latitude": 46.834512,
+        "longitude": 2.723184,
+        "grand": false,
+        "id": 220,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bavard",
+        "latitude": 46.945912,
+        "longitude": 2.834512,
+        "grand": false,
+        "id": 25,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bavard",
+        "latitude": 46.945912,
+        "longitude": 2.834512,
+        "grand": false,
+        "id": 221,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Observateur",
+        "latitude": 46.756394,
+        "longitude": 2.945912,
+        "grand": false,
+        "id": 26,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Observateur",
+        "latitude": 46.756394,
+        "longitude": 2.945912,
+        "grand": false,
+        "id": 222,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rassurant",
+        "latitude": 46.867184,
+        "longitude": 2.756394,
+        "grand": false,
+        "id": 27,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rassurant",
+        "latitude": 46.867184,
+        "longitude": 2.756394,
+        "grand": false,
+        "id": 223,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Protecteur",
+        "latitude": 46.978394,
+        "longitude": 2.867184,
+        "grand": false,
+        "id": 28,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Protecteur",
+        "latitude": 46.978394,
+        "longitude": 2.867184,
+        "grand": false,
+        "id": 224,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fidèle",
+        "latitude": 46.789512,
+        "longitude": 2.978394,
+        "grand": false,
+        "id": 29,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fidèle",
+        "latitude": 46.789512,
+        "longitude": 2.978394,
+        "grand": false,
+        "id": 225,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Loyal",
+        "latitude": 46.890394,
+        "longitude": 2.789512,
+        "grand": false,
+        "id": 30,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Loyal",
+        "latitude": 46.890394,
+        "longitude": 2.789512,
+        "grand": false,
+        "id": 226,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Minutieux",
+        "latitude": 46.901284,
+        "longitude": 2.890394,
+        "grand": false,
+        "id": 31,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Minutieux",
+        "latitude": 46.901284,
+        "longitude": 2.890394,
+        "grand": false,
+        "id": 227,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prudent",
+        "latitude": 46.812394,
+        "longitude": 2.901284,
+        "grand": false,
+        "id": 32,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prudent",
+        "latitude": 46.812394,
+        "longitude": 2.901284,
+        "grand": false,
+        "id": 228,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Audacieux",
+        "latitude": 46.923184,
+        "longitude": 2.812394,
+        "grand": false,
+        "id": 33,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Audacieux",
+        "latitude": 46.923184,
+        "longitude": 2.812394,
+        "grand": false,
+        "id": 229,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Créatif",
+        "latitude": 46.834512,
+        "longitude": 2.923184,
+        "grand": false,
+        "id": 34,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Créatif",
+        "latitude": 46.834512,
+        "longitude": 2.923184,
+        "grand": false,
+        "id": 230,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inspiré",
+        "latitude": 46.945912,
+        "longitude": 2.834512,
+        "grand": false,
+        "id": 35,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inspiré",
+        "latitude": 46.945912,
+        "longitude": 2.834512,
+        "grand": false,
+        "id": 231,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Passionné",
+        "latitude": 46.756394,
+        "longitude": 2.945912,
+        "grand": false,
+        "id": 36,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Passionné",
+        "latitude": 46.756394,
+        "longitude": 2.945912,
+        "grand": false,
+        "id": 232,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dévoué",
+        "latitude": 46.867184,
+        "longitude": 2.756394,
+        "grand": false,
+        "id": 37,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dévoué",
+        "latitude": 46.867184,
+        "longitude": 2.756394,
+        "grand": false,
+        "id": 233,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Persévérant",
+        "latitude": 46.978394,
+        "longitude": 2.867184,
+        "grand": false,
+        "id": 38,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Persévérant",
+        "latitude": 46.978394,
+        "longitude": 2.867184,
+        "grand": false,
+        "id": 234,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Endurant",
+        "latitude": 46.789512,
+        "longitude": 2.978394,
+        "grand": false,
+        "id": 39,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Endurant",
+        "latitude": 46.789512,
+        "longitude": 2.978394,
+        "grand": false,
+        "id": 235,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Résistant",
+        "latitude": 46.890394,
+        "longitude": 2.789512,
+        "grand": false,
+        "id": 40,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Résistant",
+        "latitude": 46.890394,
+        "longitude": 2.789512,
+        "grand": false,
+        "id": 236,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vaillant",
+        "latitude": 46.901284,
+        "longitude": 2.890394,
+        "grand": false,
+        "id": 41,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vaillant",
+        "latitude": 46.901284,
+        "longitude": 2.890394,
+        "grand": false,
+        "id": 237,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Héroïque",
+        "latitude": 46.812394,
+        "longitude": 2.901284,
+        "grand": false,
+        "id": 42,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Héroïque",
+        "latitude": 46.812394,
+        "longitude": 2.901284,
+        "grand": false,
+        "id": 238,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grandiose",
+        "latitude": 46.923184,
+        "longitude": 2.812394,
+        "grand": true,
+        "id": 43,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grandiose",
+        "latitude": 46.923184,
+        "longitude": 2.812394,
+        "grand": true,
+        "id": 239,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Majestueux",
+        "latitude": 46.834512,
+        "longitude": 2.923184,
+        "grand": false,
+        "id": 44,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Majestueux",
+        "latitude": 46.834512,
+        "longitude": 2.923184,
+        "grand": false,
+        "id": 240,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Noble",
+        "latitude": 46.945912,
+        "longitude": 2.834512,
+        "grand": false,
+        "id": 45,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Noble",
+        "latitude": 46.945912,
+        "longitude": 2.834512,
+        "grand": false,
+        "id": 241,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Digne",
+        "latitude": 46.756394,
+        "longitude": 2.945912,
+        "grand": false,
+        "id": 46,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Digne",
+        "latitude": 46.756394,
+        "longitude": 2.945912,
+        "grand": false,
+        "id": 242,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Franc",
+        "latitude": 46.867184,
+        "longitude": 2.756394,
+        "grand": false,
+        "id": 47,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Franc",
+        "latitude": 46.867184,
+        "longitude": 2.756394,
+        "grand": false,
+        "id": 243,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sincère",
+        "latitude": 46.978394,
+        "longitude": 2.867184,
+        "grand": false,
+        "id": 48,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sincère",
+        "latitude": 46.978394,
+        "longitude": 2.867184,
+        "grand": false,
+        "id": 244,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Honnête",
+        "latitude": 46.789512,
+        "longitude": 2.978394,
+        "grand": false,
+        "id": 49,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Honnête",
+        "latitude": 46.789512,
+        "longitude": 2.978394,
+        "grand": false,
+        "id": 245,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Jovial",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 50,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Jovial",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 246,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Malin",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 51,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Malin",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 247,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Astucieux",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 52,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Astucieux",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 248,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Habile",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 53,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Habile",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 249,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Agile",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 54,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Agile",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 250,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Souple",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 55,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Souple",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 251,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fort",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 56,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fort",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 252,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Puissant",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 57,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Puissant",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 253,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Robuste",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 58,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Robuste",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 254,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Solide",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 59,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Solide",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 255,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Compact",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 60,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Compact",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 256,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Stable",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 61,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Stable",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 257,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Calme",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 62,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Calme",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 258,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Paisible",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 63,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Paisible",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 259,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Tranquille",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 64,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Tranquille",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 260,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Détendu",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 65,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Détendu",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 261,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Zen",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 66,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Zen",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 262,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Posé",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 67,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Posé",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 263,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Serein",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 68,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Serein",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 264,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Énergique",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 69,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Énergique",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 265,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dynamique",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 70,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dynamique",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 266,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vif",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 71,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vif",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 267,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rapide",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 72,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rapide",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 268,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prompt",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 73,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prompt",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 269,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Leste",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 74,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Leste",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 270,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Promptitude",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 75,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Promptitude",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 271,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Intrépide",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 76,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Intrépide",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 272,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Courageux",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 77,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Courageux",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 273,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Brave",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 78,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Brave",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 274,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Téméraire",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 79,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Téméraire",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 275,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Intrigant",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 80,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Intrigant",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 276,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mystique",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 81,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mystique",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 277,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Enigmatique",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 82,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Enigmatique",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 278,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Secret",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 83,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Secret",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 279,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Caché",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 84,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Caché",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 280,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Invisible",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 85,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Invisible",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 281,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Silencieux",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 86,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Silencieux",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 282,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Muet",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 87,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Muet",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 283,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Taciturne",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 88,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Taciturne",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 284,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Réservé",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 89,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Réservé",
+        "latitude": 45.901284,
+        "longitude": 3.890394,
+        "grand": false,
+        "id": 285,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Modeste",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 90,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Modeste",
+        "latitude": 45.812394,
+        "longitude": 3.901284,
+        "grand": false,
+        "id": 286,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Humble",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 91,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Humble",
+        "latitude": 45.923184,
+        "longitude": 3.812394,
+        "grand": false,
+        "id": 287,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Simple",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 92,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Simple",
+        "latitude": 45.834512,
+        "longitude": 3.923184,
+        "grand": false,
+        "id": 288,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Naturel",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 93,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Naturel",
+        "latitude": 45.945912,
+        "longitude": 3.834512,
+        "grand": false,
+        "id": 289,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Spontané",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 94,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Spontané",
+        "latitude": 45.756394,
+        "longitude": 3.945912,
+        "grand": false,
+        "id": 290,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Authentique",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 95,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Authentique",
+        "latitude": 45.867184,
+        "longitude": 3.756394,
+        "grand": false,
+        "id": 291,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Véritable",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 96,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Véritable",
+        "latitude": 45.978394,
+        "longitude": 3.867184,
+        "grand": false,
+        "id": 292,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Réel",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 97,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Réel",
+        "latitude": 45.789512,
+        "longitude": 3.978394,
+        "grand": false,
+        "id": 293,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sincérité",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 98,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sincérité",
+        "latitude": 45.890394,
+        "longitude": 3.789512,
+        "grand": false,
+        "id": 294,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fiducieux",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 99,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fiducieux",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 295,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Confiant",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 100,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Confiant",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 296,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Optimiste",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 101,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Optimiste",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 297,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Espiègle",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 102,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Espiègle",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 298,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Malicieux",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 103,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Malicieux",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 299,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Taquin",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 104,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Taquin",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 300,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Blagueur",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 105,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Blagueur",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 301,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rieur",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 106,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rieur",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 302,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Souriant",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 107,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Souriant",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 303,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Amical",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 108,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Amical",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 304,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Chaleureux",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 109,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Chaleureux",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 305,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Accueillant",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 110,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Accueillant",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 306,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Hospitalier",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 111,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Hospitalier",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 307,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Généreux",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 112,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Généreux",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 308,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Altruiste",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 113,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Altruiste",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 309,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bienveillant",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 114,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bienveillant",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 310,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Compatissant",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 115,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Compatissant",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 311,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Empathique",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 116,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Empathique",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 312,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Attentif",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 117,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Attentif",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 313,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Observant",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 118,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Observant",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 314,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vigilant",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 119,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vigilant",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 315,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prévoyant",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 120,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prévoyant",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 316,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prévenant",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 121,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Prévenant",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 317,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Soigneux",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 122,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Soigneux",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 318,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Méticuleux",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 123,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Méticuleux",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 319,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Ordonné",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 124,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Ordonné",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 320,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Organisé",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 125,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Organisé",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 321,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Structuré",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 126,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Structuré",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 322,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Méthodique",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 127,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Méthodique",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 323,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rigoureux",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 128,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Rigoureux",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 324,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sérieux",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 129,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sérieux",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 325,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Studieux",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 130,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Studieux",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 326,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Appliqué",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 131,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Appliqué",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 327,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Travailleur",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 132,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Travailleur",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 328,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Laborieux",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 133,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Laborieux",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 329,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Assidu",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 134,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Assidu",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 330,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Constant",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 135,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Constant",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 331,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Stable",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 136,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Stable",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": false,
+        "id": 332,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fiable",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 137,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Fiable",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 333,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Loyaliste",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 138,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Loyaliste",
+        "latitude": 44.901284,
+        "longitude": 4.890394,
+        "grand": false,
+        "id": 334,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Déterminé",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 139,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Déterminé",
+        "latitude": 44.812394,
+        "longitude": 4.901284,
+        "grand": false,
+        "id": 335,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Résolu",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 140,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Résolu",
+        "latitude": 44.923184,
+        "longitude": 4.812394,
+        "grand": false,
+        "id": 336,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Tenace",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 141,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Tenace",
+        "latitude": 44.834512,
+        "longitude": 4.923184,
+        "grand": false,
+        "id": 337,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Obstiné",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 142,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Obstiné",
+        "latitude": 44.945912,
+        "longitude": 4.834512,
+        "grand": false,
+        "id": 338,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inflexible",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 143,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inflexible",
+        "latitude": 44.756394,
+        "longitude": 4.945912,
+        "grand": false,
+        "id": 339,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Immuable",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 144,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Immuable",
+        "latitude": 44.867184,
+        "longitude": 4.756394,
+        "grand": false,
+        "id": 340,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inébranlable",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 145,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inébranlable",
+        "latitude": 44.978394,
+        "longitude": 4.867184,
+        "grand": false,
+        "id": 341,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grand Maître",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": true,
+        "id": 146,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grand Maître",
+        "latitude": 44.789512,
+        "longitude": 4.978394,
+        "grand": true,
+        "id": 342,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sage Ancien",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 147,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sage Ancien",
+        "latitude": 44.890394,
+        "longitude": 4.789512,
+        "grand": false,
+        "id": 343,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inspirateur",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 148,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Inspirateur",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 344,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Motivateur",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 149,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Motivateur",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 345,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Guide",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 150,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Guide",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 346,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mentor",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 151,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mentor",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 347,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Conseiller",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 152,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Conseiller",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 348,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Stratège",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 153,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Stratège",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 349,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Planificateur",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 154,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Planificateur",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 350,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Organisateur",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 155,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Organisateur",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 351,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Coordinateur",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 156,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Coordinateur",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 352,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Chef",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 157,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Chef",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 353,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Meneur",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 158,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Meneur",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 354,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dirigeant",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 159,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dirigeant",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 355,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Capitaine",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 160,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Capitaine",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 356,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Commandant",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 161,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Commandant",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 357,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Leader",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 162,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Leader",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 358,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Pilote",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 163,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Pilote",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 359,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Navigateur",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 164,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Navigateur",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 360,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Explorateur",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 165,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Explorateur",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 361,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Découvreur",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 166,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Découvreur",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 362,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Voyageur",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 167,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Voyageur",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 363,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Pionnier",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 168,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Pionnier",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 364,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Innovateur",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 169,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Innovateur",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 365,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Créateur",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 170,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Créateur",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 366,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bâtisseur",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 171,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Bâtisseur",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 367,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Constructeur",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 172,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Constructeur",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 368,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Artisan",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 173,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Artisan",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 369,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Forgeron",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 174,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Forgeron",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 370,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sculpteur",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 175,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Sculpteur",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 371,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Peintre",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 176,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Peintre",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 372,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dessinateur",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 177,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Dessinateur",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 373,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Écrivain",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 178,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Écrivain",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": false,
+        "id": 374,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Conte",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 179,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Conte",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 375,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Légende",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 180,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Légende",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 376,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mythe",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 181,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mythe",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 377,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Histoire",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 182,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Histoire",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 378,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Chronique",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 183,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Chronique",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 379,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mémoire",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 184,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Mémoire",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 380,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Souvenir",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 185,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Souvenir",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 381,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Relique",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 186,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Relique",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": false,
+        "id": 382,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Ancien",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 187,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Ancien",
+        "latitude": 43.901284,
+        "longitude": 5.890394,
+        "grand": false,
+        "id": 383,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Patriarche",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": true,
+        "id": 188,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Patriarche",
+        "latitude": 43.812394,
+        "longitude": 5.901284,
+        "grand": true,
+        "id": 384,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Doyen",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 189,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Doyen",
+        "latitude": 43.923184,
+        "longitude": 5.812394,
+        "grand": false,
+        "id": 385,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vétéran",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 190,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Vétéran",
+        "latitude": 43.834512,
+        "longitude": 5.923184,
+        "grand": false,
+        "id": 386,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Expérimenté",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 191,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Expérimenté",
+        "latitude": 43.945912,
+        "longitude": 5.834512,
+        "grand": false,
+        "id": 387,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Aguerri",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 192,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Aguerri",
+        "latitude": 43.756394,
+        "longitude": 5.945912,
+        "grand": false,
+        "id": 388,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Habitué",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 193,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Habitué",
+        "latitude": 43.867184,
+        "longitude": 5.756394,
+        "grand": false,
+        "id": 389,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Routier",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 194,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Routier",
+        "latitude": 43.978394,
+        "longitude": 5.867184,
+        "grand": false,
+        "id": 390,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Voyageur Ancien",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 195,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Voyageur Ancien",
+        "latitude": 43.789512,
+        "longitude": 5.978394,
+        "grand": false,
+        "id": 391,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grand Protecteur",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": true,
+        "id": 196,
+        "capture": false
+    },
+    {
+        "nom": "Schtroumpf Grand Protecteur",
+        "latitude": 43.890394,
+        "longitude": 5.789512,
+        "grand": true,
+        "id": 392,
+        "capture": false
+    },
+    {
+        "id": 1234,
+        "nom": "Schtroumpf Cache",
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "grand": true,
+        "capture": false
+    },
+    {
+        "id": 1758119379618,
+        "nom": "Schtroumpf Nouveau",
+        "longitude": 2.03781126998055,
+        "latitude": 46.619334444206125,
+        "grand": false,
+        "capture": false
+    },
+    {
+        "id": 1758119416438,
+        "nom": "Schtroumpf Jeune",
+        "longitude": 1.9443965981499869,
+        "latitude": 46.592901120424145,
+        "grand": false,
+        "capture": false
+    },
+    {
+        "id": 1758119435848,
+        "nom": "Schtroumpf Vieux",
+        "longitude": 2.002093895457136,
+        "latitude": 46.56267581290145,
+        "grand": false,
+        "capture": false
+    },
+    {
+        "id": 1758119463156,
+        "nom": "Schtroumpf Mafia",
+        "longitude": 1.9938514244132404,
+        "latitude": 46.64481150520655,
+        "grand": true,
+        "capture": false
+    },
+    {
+        "id": 4321,
+        "nom": "Schtroumpf Kamikaze",
+        "longitude": 6.0,
+        "latitude": 0.0,
+        "grand": true,
+        "capture": true
+    }
+]

@@ -8,8 +8,8 @@
 
     <link rel="icon" type="image/png" href="../image/logo.png">
 
-    <link rel="stylesheet" href="../css/head-foot.css">
-    <link rel="stylesheet" href="../css/ajout.css">
+    <link rel="stylesheet" href="static/css/head-foot.css">
+    <link rel="stylesheet" href="static/css/ajout.css">
 
     <!--initialisation de la carte leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -39,20 +39,20 @@
     <!-------------------Header----------------->
     <header>
         <div class="header-logo">
-            <a href="../html/index.html"><img src="../image/logo.png" alt="logo du site"></a>
+            <a href="static/html/index"><img src="static/image/logo.png" alt="logo du site"></a>
         </div>
         <div class="header-nav">
             <nav>
                 <ul>
-                    <li><a href="./index.html">Acceuil</a></li>
-                    <li><a href="./carte.html">Carte</a></li>
-                    <li><a href="./ajout.html">Ajout d'un schtroumpf</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./">Acceuil</a></li>
+                    <li><a href="./carte">Carte</a></li>
+                    <li><a href="./ajout">Ajout d'un schtroumpf</a></li>
+                    <li><a href="./contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="connexion">
-            <a href="./connexion.html"><img src="../image/Smurf_house.png" alt="logo de connexion / inscription"></a>
+            <a href="./connexion"><img src="static/image/Smurf_house.png" alt="logo de connexion / inscription"></a>
         </div>
     </header>
     <!----------------------------------------->
@@ -73,7 +73,7 @@
 
                 // --------------- Initialise les icones possibles -------
                 var pointBleu = L.icon({
-                    iconUrl: '../image/point-bleu.png',
+                    iconUrl: 'static/image/point-bleu.png',
 
                     iconSize: [38, 95], // size of the icon
                     iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
@@ -81,7 +81,7 @@
                 });
 
                 var pointRouge = L.icon({
-                    iconUrl: '../image/point-rouge.png',
+                    iconUrl: 'static/image/point-rouge.png',
 
                     iconSize: [38, 95], // size of the icon
                     iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
@@ -89,7 +89,7 @@
                 });
 
                 var pointBlanc = L.icon({
-                    iconUrl: '../image/point-blanc.png',
+                    iconUrl: 'static/image/point-blanc.png',
 
                     iconSize: [38, 95], // size of the icon
                     iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
@@ -99,7 +99,7 @@
                 // récupère les données des schtroumpfs en json et les affiche sur la carte
 
                 function fetchJSONData() {
-                    fetch('../js/schtroumpfs.json')
+                    fetch('./items/')
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -147,30 +147,49 @@
                 // ---------- ajouter données nouveau schtroumpf en appuyant sur le bouton
 
                 document.addEventListener("DOMContentLoaded", function () {
-                    document.getElementById('boutonAjouter').addEventListener('click', function () {
-
-                        const latitude = document.getElementById('latitude').value;
-                        const longitude = document.getElementById('longitude').value;
+                    document.getElementById('boutonAjouter').addEventListener('click', async function () {
+                        const latitude = parseFloat(document.getElementById('latitude').value);
+                        const longitude = parseFloat(document.getElementById('longitude').value);
                         const nom = document.getElementById('nom').value;
                         const grand = document.getElementById('grand').checked;
+                        const capture = false;
+
+                        // Générer un ID unique basé sur timestamp
+                        const id = Date.now();
 
                         const newSchtroumpf = {
-                            latitude: parseFloat(latitude),
-                            longitude: parseFloat(longitude),
+                            id: id,
                             nom: nom,
-                            grand: grand
+                            latitude: latitude,
+                            longitude: longitude,
+                            grand: grand,
+                            capture: capture
                         };
 
-                        let data = JSON.parse(localStorage.getItem('schtroumpfs')) || [];
-                        data.push(newSchtroumpf);
-                        localStorage.setItem('schtroumpfs', JSON.stringify(data));
-                        
-                        alert("Schtroumpf ajouté !");
+                        try {
+                            // 🔹 Envoi vers le backend FastAPI
+                            const response = await fetch('http://127.0.0.1:8000/items/', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify(newSchtroumpf)
+                            });
 
-                        setTimeout('', 3000);
-                        location.reload();
+                            if (!response.ok) {
+                                const err = await response.json();
+                                throw new Error(err.detail || 'Erreur lors de l’ajout');
+                            }
+
+                            alert("Schtroumpf ajouté avec succès !");
+                            location.reload(); // recharge la page si besoin
+                        } catch (error) {
+                            console.error("Erreur :", error);
+                            alert("Impossible d’ajouter le Schtroumpf : " + error.message);
+                        }
                     });
                 });
+
 
 
             </script>
@@ -214,7 +233,7 @@
         </div>
         <div class="footer-nav">
             <ul>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./contact">Contact</a></li>
             </ul>
         </div>
     </footer>

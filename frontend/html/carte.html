@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carte</title>
 
-    <link rel="icon" type="image/png" href="../image/logo.png">
+    <link rel="icon" type="image/png" href="static/image/logo.png">
 
-    <link rel="stylesheet" href="../css/head-foot.css">
+    <link rel="stylesheet" href="static/css/head-foot.css">
 
     <!--initialisation de la carte leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -35,20 +35,20 @@
 <body>
     <header>
         <div class="header-logo">
-            <a href="../html/index.html"><img src="../image/logo.png" alt="logo du site"></a>
+            <a href="static/html/index"><img src="static/image/logo.png" alt="logo du site"></a>
         </div>
         <div class="header-nav">
             <nav>
                 <ul>
-                    <li><a href="./index.html">Acceuil</a></li>
-                    <li><a href="./carte.html">Carte</a></li>
-                    <li><a href="./ajout.html">Ajout d'un schtroumpf</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./">Acceuil</a></li>
+                    <li><a href="./carte">Carte</a></li>
+                    <li><a href="./ajout">Ajout d'un schtroumpf</a></li>
+                    <li><a href="./contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="connexion">
-            <a href="./connexion.html"><img src="../image/Smurf_house.png" alt="logo de connexion / inscription"></a>
+            <a href="./connexion"><img src="static/image/Smurf_house.png" alt="logo de connexion / inscription"></a>
         </div>
     </header>
 
@@ -65,7 +65,7 @@
 
             // initialiser les points
             var pointBleu = L.icon({
-                iconUrl: '../image/point-bleu.png',
+                iconUrl: 'static/image/point-bleu.png',
 
                 iconSize: [38, 95], // size of the icon
                 iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
@@ -73,7 +73,7 @@
             });
 
             var pointRouge = L.icon({
-                iconUrl: '../image/point-rouge.png',
+                iconUrl: 'static/image/point-rouge.png',
 
                 iconSize: [38, 95], // size of the icon
                 iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
@@ -81,9 +81,33 @@
             });
 
             //---------------- recupérer les données schtroumpfs et les afficher
+/*
+            async function loadItems() {
+                try {
+                    // 🔹 Appel de ton backend FastAPI
+                    const response = await fetch("./items/");
+                    const data = await response.json();
+
+                    const list = document.getElementById("items-list");
+                    list.innerHTML = "";
+
+                    // 🔹 Affichage des données
+                    data.forEach(item => {
+                    const li = document.createElement("li");
+                    li.textContent = `${item.nom} (${item.latitude}, ${item.longitude}) - Grand: ${item.grand}, Capture: ${item.capture}`;
+                    list.appendChild(li);
+                    });
+                } catch (error) {
+                    console.error("Erreur lors du chargement :", error);
+                }
+                }
+
+                loadItems();
+
+*/
+            
             function fetchJSONData() {
-                fetch('../js/schtroumpfs.json')
-                fetch('../js/schtroumpfs.json')
+                fetch('./items/')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -92,15 +116,16 @@
                     })
                     .then(data => {
                         data.forEach(schtroumpf => {
-                            if (schtroumpf.grand == true) {
-                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointRouge })
-                                    .addTo(map)
-                                    .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
-                            }
-                            else {
-                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointBleu })
-                                    .addTo(map)
-                                    .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
+                            if (schtroumpf.capture === false) {
+                                if (schtroumpf.grand === true) {
+                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointRouge })
+                                        .addTo(map)
+                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
+                                } else {
+                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointBleu })
+                                        .addTo(map)
+                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
+                                }                                
                             }
                         });
                     })
@@ -108,6 +133,8 @@
             }
 
             fetchJSONData();
+
+            
         </script>
     </main>
 
@@ -120,7 +147,7 @@
         </div>
         <div class="footer-nav">
             <ul>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./contact">Contact</a></li>
             </ul>
         </div>
     </footer>
