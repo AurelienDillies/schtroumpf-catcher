@@ -59,10 +59,17 @@
             <script>
 
                 // ---------------- initialiser carte ------------------
-                var mapAjout = L.map('mapAjout').setView([46.7, 2.8], 9);
+                var mapAjout = L.map('mapAjout', {
+                center: [46.7, 2.8],
+                zoom: 9,
+                minZoom: 1.4,   // 🔥 empêche d’aller trop loin
+                maxZoom: 15   // 🔥 optionnel, évite de zoomer trop
+            });
 
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-                    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+                    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                noWrap: true,                // empêche la répétition horizontale
+                bounds: [[-90, -180], [90, 180]] // limite aux coordonnées du globe
                 }).addTo(mapAjout);
 
                 // --------------- Initialise les icones possibles -------
