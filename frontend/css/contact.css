@@ -1,8 +1,10 @@
 main {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 main::before {
@@ -10,7 +12,7 @@ main::before {
     position: absolute;
     top: -10px;
     left: -10px;
-    right: -10px; 
+    right: -10px;
     bottom: -10px;
     background-image: url("../../static/image/smurf_village.png");
     background-repeat: no-repeat;
