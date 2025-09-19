@@ -81,3 +81,21 @@ main::before {
     color: #fff;
     box-shadow: 0 6px 20px rgba(30, 58, 92, 0.18);
 }
+
+/* Pop-up style */
+#popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1e3a5c;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    display: none; 
+    z-index: 1000;
+}

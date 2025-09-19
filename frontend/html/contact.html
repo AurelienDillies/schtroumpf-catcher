@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="static/css/head-foot.css">
     <link rel="stylesheet" href="static/css/contact.css">
+
+    <script src="static/js/contact.js" defer></script>
 </head>
 
 <body>
@@ -47,7 +49,12 @@
                 <label for="message">Message :</label>
                 <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Envoyer</button>
+                <button type="button" id="boutonEnvoyer">Envoyer</button>
+
+                <!-- Pop-up caché par défaut -->
+                <div id="popup-message">
+                    <p>✅ Message envoyé avec succès !</p>
+                </div>
             </form>
         </div>
     </main>
