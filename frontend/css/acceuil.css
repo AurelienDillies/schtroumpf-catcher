@@ -69,6 +69,7 @@ main::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .attraper:hover,
@@ -119,11 +120,10 @@ main::before {
     border-radius: 24px;
     text-decoration: none;
     box-shadow: 0 4px 16px rgba(30, 58, 92, 0.08);
-    transition: background 0.3s, color 0.3s;
+    transition: background 0.3s;
 }
 
 .btn-acces:hover {
     background-color: #1e3a5c;
-    color: #fff;
     box-shadow: 0 6px 20px rgba(30, 58, 92, 0.18);
 }

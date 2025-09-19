@@ -5,5 +5,35 @@ main {
 
 /* conteneur de la carte */
 #map {
-    width: 100%;   
+    width: 100%;
+}
+
+.btn-attrape {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.popup-content {
+    text-align: center;
+    font-family: 'SF Slapstick Comic', sans-serif;  
+    font-size: 16px;
+}
+
+.attrape {
+    background-color: #e63946;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.attrape:hover {
+    background-color: #1e3a5c;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(30, 58, 92, 0.18);
 }

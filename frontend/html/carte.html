@@ -24,7 +24,7 @@
 <body>
     <header>
         <div class="header-logo">
-            <a href="static/html/index.html">
+            <a href="./">
                 <img src="static/image/logo.png" alt="logo du site">
                 <p>schtroumpf catcher</p>
             </a>
@@ -107,9 +107,13 @@
                                 L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: icon })
                                     .addTo(map)
                                     .bindPopup(`
+                                    <div class="popup-content">
                                         <h3>${schtroumpf.nom}</h3>
                                         <p>${schtroumpf.description}</p>
-                                        <button onclick="captureSchtroumpf(${schtroumpf.id})">Attraper</button>
+                                        <div class="btn-attrape">
+                                        <button onclick="captureSchtroumpf(${schtroumpf.id})" class="attrape">Attraper</button>
+                                        </div>
+                                    </div>
                                     `);
                             }
                         });

@@ -1,8 +1,10 @@
 /* Mise en page principale */
 main {
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     gap: 40px;
 }
 
