@@ -20,7 +20,7 @@
 
     <!--style minimal de la carte (obligatoire)-->
     <style>
-    
+
     </style>
 
 
@@ -95,31 +95,32 @@
                 });
 
                 function fetchData() {
-                fetch("http://127.0.0.1:8000/items/")
-                    .then(response => response.json())
-                    .then(data => {
-                        data.forEach(schtroumpf => {
-                            if (!schtroumpf.capture) {
-                                let icon = schtroumpf.grand ? pointRouge : pointBleu;
-                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: icon })
-                                    .addTo(mapAjout)
-                                    .bindPopup(`
-                                        <h3>${schtroumpf.nom}</h3>
-                                        <p>${schtroumpf.description}</p>
-                                        <button onclick="captureSchtroumpf(${schtroumpf.id})">Attraper</button>
+                    fetch("http://127.0.0.1:8000/items/")
+                        .then(response => response.json())
+                        .then(data => {
+                            data.forEach(schtroumpf => {
+                                if (!schtroumpf.capture) {
+                                    let icon = schtroumpf.grand ? pointRouge : pointBleu;
+                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: icon })
+                                        .addTo(mapAjout)
+                                        .bindPopup(`
+                                        <div class="popup-content">
+                                            <h3>${schtroumpf.nom}</h3>
+                                            <p>${schtroumpf.description}</p>
+                                        </div>
                                     `);
-                            }
-                        });
-                    })
-                    .catch(error => console.error("Failed to fetch data:", error));
-            }
+                                }
+                            });
+                        })
+                        .catch(error => console.error("Failed to fetch data:", error));
+                }
 
-            fetchData();
+                fetchData();
 
                 // Marqueur déplaçable
                 var marker = L.marker([46.7, 2.8], { icon: pointBlanc, draggable: true }).addTo(mapAjout);
 
-                marker.on("drag", function(e) {
+                marker.on("drag", function (e) {
                     var pos = e.target.getLatLng();
                     document.getElementById("latitude").value = pos.lat.toFixed(6);
                     document.getElementById("longitude").value = pos.lng.toFixed(6);
@@ -167,7 +168,7 @@
                             if (!response.ok) {
                                 // essayer d'afficher le message du serveur si présent
                                 let errText = "Erreur lors de l’ajout";
-                                try { const j = await response.json(); errText = j.detail || JSON.stringify(j); } catch (e) {}
+                                try { const j = await response.json(); errText = j.detail || JSON.stringify(j); } catch (e) { }
                                 throw new Error(errText);
                             }
 
@@ -184,9 +185,9 @@
             </script>
 
             <div id="formulaire-ajout">
-                <div >
-                    <h4 id ="titre-formulaire">Ajouter un Schtroumpf</h4>
-                    <p id ="sous-titre">Déplacez le marqueur pour choisir la position</p>
+                <div>
+                    <h4 id="titre-formulaire">Ajouter un Schtroumpf</h4>
+                    <p id="sous-titre">Déplacez le marqueur pour choisir la position</p>
                 </div>
                 <form>
                     <div class="element-formulaire">
