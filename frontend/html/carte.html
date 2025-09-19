@@ -80,61 +80,44 @@
                 popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
             });
 
-            //---------------- recupérer les données schtroumpfs et les afficher
-/*
-            async function loadItems() {
-                try {
-                    // 🔹 Appel de ton backend FastAPI
-                    const response = await fetch("./items/");
-                    const data = await response.json();
+            // Fonction pour capturer un schtroumpf
+            function captureSchtroumpf(id) {
+                fetch(`http://127.0.0.1:8000/items/${id}/capture`, {
+                    method: "PUT"
+                })
+                .then(response => {
+                    if (!response.ok) throw new Error("Erreur lors de la capture");
+                    return response.json();
+                })
+                .then(data => {
+                    alert(`${data.nom} a été attrapé !`);
+                    location.reload();
+                })
+                .catch(error => console.error("Erreur:", error));
+            }
 
-                    const list = document.getElementById("items-list");
-                    list.innerHTML = "";
-
-                    // 🔹 Affichage des données
-                    data.forEach(item => {
-                    const li = document.createElement("li");
-                    li.textContent = `${item.nom} (${item.latitude}, ${item.longitude}) - Grand: ${item.grand}, Capture: ${item.capture}`;
-                    list.appendChild(li);
-                    });
-                } catch (error) {
-                    console.error("Erreur lors du chargement :", error);
-                }
-                }
-
-                loadItems();
-
-*/
-            
-            function fetchJSONData() {
-                fetch('./items/')
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error(`HTTP error! Status: ${response.status}`);
-                        }
-                        return response.json();
-                    })
+            // Charger les schtroumpfs
+            function fetchData() {
+                fetch("http://127.0.0.1:8000/items/")
+                    .then(response => response.json())
                     .then(data => {
                         data.forEach(schtroumpf => {
-                            if (schtroumpf.capture === false) {
-                                if (schtroumpf.grand === true) {
-                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointRouge })
-                                        .addTo(map)
-                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
-                                } else {
-                                    L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: pointBleu })
-                                        .addTo(map)
-                                        .bindPopup("<h3>" + schtroumpf.nom + "</h3>");
-                                }                                
+                            if (!schtroumpf.capture) {
+                                let icon = schtroumpf.grand ? pointRouge : pointBleu;
+                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: icon })
+                                    .addTo(map)
+                                    .bindPopup(`
+                                        <h3>${schtroumpf.nom}</h3>
+                                        <p>${schtroumpf.description}</p>
+                                        <button onclick="captureSchtroumpf(${schtroumpf.id})">Attraper</button>
+                                    `);
                             }
                         });
                     })
-                    .catch(error => console.error('Failed to fetch data:', error));
+                    .catch(error => console.error("Failed to fetch data:", error));
             }
 
-            fetchJSONData();
-
-            
+            fetchData();
         </script>
     </main>
 

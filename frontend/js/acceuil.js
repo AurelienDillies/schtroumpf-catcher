@@ -22,11 +22,12 @@ function animateCounter(el, target) {
     requestAnimationFrame(update);
 }
 
-let capture = 0;
-let restant = 0;
+function fetchDataCounters() {
+    // toujours repartir de zéro
+    let capture = 0;
+    let restant = 0;
 
-function fetchJSONData() {
-    fetch('./items/')
+    fetch(window.location.origin + "/items/")
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -35,23 +36,21 @@ function fetchJSONData() {
         })
         .then(data => {
             data.forEach(schtroumpf => {
-                if (schtroumpf.capture === false) {
-                    restant++;
-                } else {
+                if (schtroumpf.capture) {
                     capture++;
+                } else {
+                    restant++;
                 }
             });
 
-            
-            const attraper = document.querySelector(".attraper p");
-            const restanter = document.querySelector(".restant p");
+            const captureEl = document.querySelector(".attraper p");
+            const restantEl = document.querySelector(".restant p");
 
-            animateCounter(attraper, capture);
-            animateCounter(restanter, restant);
+            if (captureEl) animateCounter(captureEl, capture);
+            if (restantEl) animateCounter(restantEl, restant);
         })
-        .catch(error => console.error('Failed to fetch data:', error));
+        .catch(error => console.error("Failed to fetch data:", error));
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    fetchJSONData();
-});
+// lancer au chargement
+document.addEventListener("DOMContentLoaded", fetchDataCounters);

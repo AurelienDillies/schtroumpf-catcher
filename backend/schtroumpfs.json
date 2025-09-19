@@ -5,7 +5,8 @@
         "longitude": 2.673945,
         "grand": false,
         "id": 1,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Farceur préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Farceur",
@@ -13,7 +14,8 @@
         "longitude": 2.673945,
         "grand": false,
         "id": 197,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Farceur adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Grognon",
@@ -21,7 +23,8 @@
         "longitude": 2.592314,
         "grand": false,
         "id": 2,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grognon aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Grognon",
@@ -29,7 +32,8 @@
         "longitude": 2.592314,
         "grand": false,
         "id": 198,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grognon adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Joyeux",
@@ -37,7 +41,8 @@
         "longitude": 2.741508,
         "grand": true,
         "id": 3,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Joyeux passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Joyeux",
@@ -45,7 +50,8 @@
         "longitude": 2.741508,
         "grand": true,
         "id": 199,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Joyeux préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Coquet",
@@ -53,7 +59,8 @@
         "longitude": 2.523119,
         "grand": false,
         "id": 4,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Coquet adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Coquet",
@@ -61,7 +68,8 @@
         "longitude": 2.523119,
         "grand": false,
         "id": 200,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Coquet est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Bricoleur",
@@ -69,7 +77,8 @@
         "longitude": 1.812457,
         "grand": false,
         "id": 5,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bricoleur aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Bricoleur",
@@ -77,7 +86,8 @@
         "longitude": 1.812457,
         "grand": false,
         "id": 201,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bricoleur aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Poète",
@@ -85,7 +95,8 @@
         "longitude": 1.75642,
         "grand": false,
         "id": 6,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Poète est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Poète",
@@ -93,7 +104,8 @@
         "longitude": 1.75642,
         "grand": false,
         "id": 202,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Poète passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Musicien",
@@ -101,7 +113,8 @@
         "longitude": 1.669132,
         "grand": false,
         "id": 7,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Musicien aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Musicien",
@@ -109,7 +122,8 @@
         "longitude": 1.669132,
         "grand": false,
         "id": 203,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Musicien trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Gourmand",
@@ -117,7 +131,8 @@
         "longitude": 2.463029,
         "grand": false,
         "id": 8,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Gourmand ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Gourmand",
@@ -125,7 +140,8 @@
         "longitude": 2.463029,
         "grand": false,
         "id": 204,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Gourmand adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Rêveur",
@@ -133,7 +149,8 @@
         "longitude": 2.364582,
         "grand": false,
         "id": 9,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rêveur préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Rêveur",
@@ -141,7 +158,8 @@
         "longitude": 2.364582,
         "grand": false,
         "id": 205,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rêveur préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Timide",
@@ -149,7 +167,8 @@
         "longitude": 2.521447,
         "grand": false,
         "id": 10,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Timide préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Timide",
@@ -157,7 +176,8 @@
         "longitude": 2.521447,
         "grand": false,
         "id": 206,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Timide passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Sportif",
@@ -165,7 +185,8 @@
         "longitude": 3.021445,
         "grand": false,
         "id": 11,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sportif passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Sportif",
@@ -173,7 +194,8 @@
         "longitude": 3.021445,
         "grand": false,
         "id": 207,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sportif est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Maladroit",
@@ -181,7 +203,8 @@
         "longitude": 2.903288,
         "grand": false,
         "id": 12,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Maladroit est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Maladroit",
@@ -189,7 +212,8 @@
         "longitude": 2.903288,
         "grand": false,
         "id": 208,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Maladroit adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Savant",
@@ -197,7 +221,8 @@
         "longitude": 3.067591,
         "grand": false,
         "id": 13,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Savant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Savant",
@@ -205,7 +230,8 @@
         "longitude": 3.067591,
         "grand": false,
         "id": 209,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Savant aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Curieux",
@@ -213,7 +239,8 @@
         "longitude": -1.986942,
         "grand": false,
         "id": 14,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Curieux aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Curieux",
@@ -221,7 +248,8 @@
         "longitude": -1.986942,
         "grand": false,
         "id": 210,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Curieux trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Téméraire",
@@ -229,7 +257,8 @@
         "longitude": -2.143881,
         "grand": false,
         "id": 15,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Téméraire trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Téméraire",
@@ -237,7 +266,8 @@
         "longitude": -2.143881,
         "grand": false,
         "id": 211,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Téméraire aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Rusé",
@@ -245,7 +275,8 @@
         "longitude": -2.058319,
         "grand": false,
         "id": 16,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rusé aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Rusé",
@@ -253,7 +284,8 @@
         "longitude": -2.058319,
         "grand": false,
         "id": 212,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rusé passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Sage",
@@ -261,7 +293,8 @@
         "longitude": -0.952118,
         "grand": false,
         "id": 17,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sage adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Sage",
@@ -269,7 +302,8 @@
         "longitude": -0.952118,
         "grand": false,
         "id": 213,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sage ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Rapide",
@@ -277,7 +311,8 @@
         "longitude": -1.104523,
         "grand": false,
         "id": 18,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rapide passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Rapide",
@@ -285,7 +320,8 @@
         "longitude": -1.104523,
         "grand": false,
         "id": 214,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rapide aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Mystérieux",
@@ -293,7 +329,8 @@
         "longitude": -0.678334,
         "grand": false,
         "id": 19,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mystérieux ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Mystérieux",
@@ -301,7 +338,8 @@
         "longitude": -0.678334,
         "grand": false,
         "id": 215,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mystérieux passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Charmant",
@@ -309,7 +347,8 @@
         "longitude": 2.673551,
         "grand": false,
         "id": 20,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Charmant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Charmant",
@@ -317,7 +356,8 @@
         "longitude": 2.673551,
         "grand": false,
         "id": 216,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Charmant aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Aventurier",
@@ -325,7 +365,8 @@
         "longitude": 2.781204,
         "grand": false,
         "id": 21,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Aventurier est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Aventurier",
@@ -333,7 +374,8 @@
         "longitude": 2.781204,
         "grand": false,
         "id": 217,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Aventurier trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Inventif",
@@ -341,7 +383,8 @@
         "longitude": 2.894512,
         "grand": false,
         "id": 22,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inventif aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Inventif",
@@ -349,7 +392,8 @@
         "longitude": 2.894512,
         "grand": false,
         "id": 218,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inventif est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Rieur",
@@ -357,7 +401,8 @@
         "longitude": 2.612394,
         "grand": false,
         "id": 23,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rieur aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Rieur",
@@ -365,7 +410,8 @@
         "longitude": 2.612394,
         "grand": false,
         "id": 219,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rieur adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Discret",
@@ -373,7 +419,8 @@
         "longitude": 2.723184,
         "grand": false,
         "id": 24,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Discret trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Discret",
@@ -381,7 +428,8 @@
         "longitude": 2.723184,
         "grand": false,
         "id": 220,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Discret préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Bavard",
@@ -389,7 +437,8 @@
         "longitude": 2.834512,
         "grand": false,
         "id": 25,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bavard aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Bavard",
@@ -397,7 +446,8 @@
         "longitude": 2.834512,
         "grand": false,
         "id": 221,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bavard préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Observateur",
@@ -405,7 +455,8 @@
         "longitude": 2.945912,
         "grand": false,
         "id": 26,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Observateur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Observateur",
@@ -413,7 +464,8 @@
         "longitude": 2.945912,
         "grand": false,
         "id": 222,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Observateur passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Rassurant",
@@ -421,7 +473,8 @@
         "longitude": 2.756394,
         "grand": false,
         "id": 27,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rassurant aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Rassurant",
@@ -429,7 +482,8 @@
         "longitude": 2.756394,
         "grand": false,
         "id": 223,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rassurant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Protecteur",
@@ -437,7 +491,8 @@
         "longitude": 2.867184,
         "grand": false,
         "id": 28,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Protecteur préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Protecteur",
@@ -445,7 +500,8 @@
         "longitude": 2.867184,
         "grand": false,
         "id": 224,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Protecteur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Fidèle",
@@ -453,7 +509,8 @@
         "longitude": 2.978394,
         "grand": false,
         "id": 29,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fidèle adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Fidèle",
@@ -461,7 +518,8 @@
         "longitude": 2.978394,
         "grand": false,
         "id": 225,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fidèle adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Loyal",
@@ -469,7 +527,8 @@
         "longitude": 2.789512,
         "grand": false,
         "id": 30,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Loyal est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Loyal",
@@ -477,7 +536,8 @@
         "longitude": 2.789512,
         "grand": false,
         "id": 226,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Loyal aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Minutieux",
@@ -485,7 +545,8 @@
         "longitude": 2.890394,
         "grand": false,
         "id": 31,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Minutieux est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Minutieux",
@@ -493,7 +554,8 @@
         "longitude": 2.890394,
         "grand": false,
         "id": 227,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Minutieux aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Prudent",
@@ -501,7 +563,8 @@
         "longitude": 2.901284,
         "grand": false,
         "id": 32,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prudent adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Prudent",
@@ -509,7 +572,8 @@
         "longitude": 2.901284,
         "grand": false,
         "id": 228,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prudent aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Audacieux",
@@ -517,7 +581,8 @@
         "longitude": 2.812394,
         "grand": false,
         "id": 33,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Audacieux adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Audacieux",
@@ -525,7 +590,8 @@
         "longitude": 2.812394,
         "grand": false,
         "id": 229,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Audacieux passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Créatif",
@@ -533,7 +599,8 @@
         "longitude": 2.923184,
         "grand": false,
         "id": 34,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Créatif passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Créatif",
@@ -541,7 +608,8 @@
         "longitude": 2.923184,
         "grand": false,
         "id": 230,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Créatif aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Inspiré",
@@ -549,7 +617,8 @@
         "longitude": 2.834512,
         "grand": false,
         "id": 35,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inspiré adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Inspiré",
@@ -557,7 +626,8 @@
         "longitude": 2.834512,
         "grand": false,
         "id": 231,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inspiré passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Passionné",
@@ -565,7 +635,8 @@
         "longitude": 2.945912,
         "grand": false,
         "id": 36,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Passionné préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Passionné",
@@ -573,7 +644,8 @@
         "longitude": 2.945912,
         "grand": false,
         "id": 232,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Passionné passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Dévoué",
@@ -581,7 +653,8 @@
         "longitude": 2.756394,
         "grand": false,
         "id": 37,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dévoué aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Dévoué",
@@ -589,7 +662,8 @@
         "longitude": 2.756394,
         "grand": false,
         "id": 233,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dévoué préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Persévérant",
@@ -597,7 +671,8 @@
         "longitude": 2.867184,
         "grand": false,
         "id": 38,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Persévérant ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Persévérant",
@@ -605,7 +680,8 @@
         "longitude": 2.867184,
         "grand": false,
         "id": 234,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Persévérant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Endurant",
@@ -613,7 +689,8 @@
         "longitude": 2.978394,
         "grand": false,
         "id": 39,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Endurant ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Endurant",
@@ -621,7 +698,8 @@
         "longitude": 2.978394,
         "grand": false,
         "id": 235,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Endurant aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Résistant",
@@ -629,7 +707,8 @@
         "longitude": 2.789512,
         "grand": false,
         "id": 40,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Résistant préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Résistant",
@@ -637,7 +716,8 @@
         "longitude": 2.789512,
         "grand": false,
         "id": 236,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Résistant ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Vaillant",
@@ -645,7 +725,8 @@
         "longitude": 2.890394,
         "grand": false,
         "id": 41,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vaillant aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Vaillant",
@@ -653,7 +734,8 @@
         "longitude": 2.890394,
         "grand": false,
         "id": 237,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vaillant passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Héroïque",
@@ -661,7 +743,8 @@
         "longitude": 2.901284,
         "grand": false,
         "id": 42,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Héroïque préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Héroïque",
@@ -669,7 +752,8 @@
         "longitude": 2.901284,
         "grand": false,
         "id": 238,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Héroïque passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Grandiose",
@@ -677,7 +761,8 @@
         "longitude": 2.812394,
         "grand": true,
         "id": 43,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grandiose préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Grandiose",
@@ -685,7 +770,8 @@
         "longitude": 2.812394,
         "grand": true,
         "id": 239,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grandiose passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Majestueux",
@@ -693,7 +779,8 @@
         "longitude": 2.923184,
         "grand": false,
         "id": 44,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Majestueux aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Majestueux",
@@ -701,7 +788,8 @@
         "longitude": 2.923184,
         "grand": false,
         "id": 240,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Majestueux aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Noble",
@@ -709,7 +797,8 @@
         "longitude": 2.834512,
         "grand": false,
         "id": 45,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Noble aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Noble",
@@ -717,7 +806,8 @@
         "longitude": 2.834512,
         "grand": false,
         "id": 241,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Noble est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Digne",
@@ -725,7 +815,8 @@
         "longitude": 2.945912,
         "grand": false,
         "id": 46,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Digne aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Digne",
@@ -733,7 +824,8 @@
         "longitude": 2.945912,
         "grand": false,
         "id": 242,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Digne passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Franc",
@@ -741,7 +833,8 @@
         "longitude": 2.756394,
         "grand": false,
         "id": 47,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Franc passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Franc",
@@ -749,7 +842,8 @@
         "longitude": 2.756394,
         "grand": false,
         "id": 243,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Franc trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Sincère",
@@ -757,7 +851,8 @@
         "longitude": 2.867184,
         "grand": false,
         "id": 48,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sincère est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Sincère",
@@ -765,7 +860,8 @@
         "longitude": 2.867184,
         "grand": false,
         "id": 244,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sincère passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Honnête",
@@ -773,7 +869,8 @@
         "longitude": 2.978394,
         "grand": false,
         "id": 49,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Honnête est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Honnête",
@@ -781,7 +878,8 @@
         "longitude": 2.978394,
         "grand": false,
         "id": 245,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Honnête adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Jovial",
@@ -789,7 +887,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 50,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Jovial trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Jovial",
@@ -797,7 +896,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 246,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Jovial aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Malin",
@@ -805,7 +905,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 51,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Malin aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Malin",
@@ -813,7 +914,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 247,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Malin trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Astucieux",
@@ -821,7 +923,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 52,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Astucieux passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Astucieux",
@@ -829,7 +932,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 248,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Astucieux aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Habile",
@@ -837,7 +941,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 53,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Habile préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Habile",
@@ -845,7 +950,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 249,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Habile trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Agile",
@@ -853,7 +959,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 54,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Agile est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Agile",
@@ -861,7 +968,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 250,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Agile aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Souple",
@@ -869,7 +977,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 55,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Souple ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Souple",
@@ -877,7 +986,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 251,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Souple est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Fort",
@@ -885,7 +995,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 56,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fort aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Fort",
@@ -893,7 +1004,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 252,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fort est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Puissant",
@@ -901,7 +1013,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 57,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Puissant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Puissant",
@@ -909,7 +1022,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 253,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Puissant est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Robuste",
@@ -917,7 +1031,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 58,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Robuste ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Robuste",
@@ -925,7 +1040,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 254,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Robuste ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Solide",
@@ -933,7 +1049,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 59,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Solide passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Solide",
@@ -941,7 +1058,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 255,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Solide ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Compact",
@@ -949,7 +1067,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 60,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Compact trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Compact",
@@ -957,7 +1076,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 256,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Compact adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Stable",
@@ -965,7 +1085,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 61,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Stable adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Stable",
@@ -973,7 +1094,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 257,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Stable trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Calme",
@@ -981,7 +1103,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 62,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Calme adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Calme",
@@ -989,7 +1112,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 258,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Calme aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Paisible",
@@ -997,7 +1121,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 63,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Paisible trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Paisible",
@@ -1005,7 +1130,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 259,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Paisible préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Tranquille",
@@ -1013,7 +1139,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 64,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Tranquille aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Tranquille",
@@ -1021,7 +1148,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 260,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Tranquille passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Détendu",
@@ -1029,7 +1157,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 65,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Détendu aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Détendu",
@@ -1037,7 +1166,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 261,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Détendu passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Zen",
@@ -1045,7 +1175,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 66,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Zen aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Zen",
@@ -1053,7 +1184,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 262,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Zen passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Posé",
@@ -1061,7 +1193,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 67,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Posé adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Posé",
@@ -1069,7 +1202,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 263,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Posé passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Serein",
@@ -1077,7 +1211,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 68,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Serein préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Serein",
@@ -1085,7 +1220,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 264,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Serein adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Énergique",
@@ -1093,7 +1229,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 69,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Énergique passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Énergique",
@@ -1101,7 +1238,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 265,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Énergique aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Dynamique",
@@ -1109,7 +1247,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 70,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dynamique aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Dynamique",
@@ -1117,7 +1256,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 266,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dynamique ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Vif",
@@ -1125,7 +1265,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 71,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vif aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Vif",
@@ -1133,7 +1274,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 267,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vif préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Rapide",
@@ -1141,7 +1283,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 72,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rapide préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Rapide",
@@ -1149,7 +1292,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 268,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rapide passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Prompt",
@@ -1157,7 +1301,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 73,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prompt aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Prompt",
@@ -1165,7 +1310,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 269,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prompt aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Leste",
@@ -1173,7 +1319,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 74,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Leste trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Leste",
@@ -1181,7 +1328,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 270,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Leste est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Promptitude",
@@ -1189,7 +1337,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 75,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Promptitude adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Promptitude",
@@ -1197,7 +1346,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 271,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Promptitude est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Intrépide",
@@ -1205,7 +1355,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 76,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Intrépide aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Intrépide",
@@ -1213,7 +1364,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 272,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Intrépide passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Courageux",
@@ -1221,7 +1373,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 77,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Courageux adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Courageux",
@@ -1229,7 +1382,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 273,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Courageux ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Brave",
@@ -1237,7 +1391,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 78,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Brave adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Brave",
@@ -1245,7 +1400,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 274,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Brave trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Téméraire",
@@ -1253,7 +1409,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 79,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Téméraire trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Téméraire",
@@ -1261,7 +1418,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 275,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Téméraire passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Intrigant",
@@ -1269,7 +1427,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 80,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Intrigant aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Intrigant",
@@ -1277,7 +1436,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 276,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Intrigant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Mystique",
@@ -1285,7 +1445,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 81,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mystique aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Mystique",
@@ -1293,7 +1454,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 277,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mystique trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Enigmatique",
@@ -1301,7 +1463,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 82,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Enigmatique passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Enigmatique",
@@ -1309,7 +1472,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 278,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Enigmatique ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Secret",
@@ -1317,7 +1481,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 83,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Secret préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Secret",
@@ -1325,7 +1490,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 279,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Secret aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Caché",
@@ -1333,7 +1499,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 84,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Caché préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Caché",
@@ -1341,7 +1508,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 280,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Caché aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Invisible",
@@ -1349,7 +1517,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 85,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Invisible est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Invisible",
@@ -1357,7 +1526,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 281,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Invisible passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Silencieux",
@@ -1365,7 +1535,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 86,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Silencieux aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Silencieux",
@@ -1373,7 +1544,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 282,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Silencieux trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Muet",
@@ -1381,7 +1553,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 87,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Muet ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Muet",
@@ -1389,7 +1562,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 283,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Muet aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Taciturne",
@@ -1397,7 +1571,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 88,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Taciturne aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Taciturne",
@@ -1405,7 +1580,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 284,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Taciturne préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Réservé",
@@ -1413,7 +1589,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 89,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Réservé préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Réservé",
@@ -1421,7 +1598,8 @@
         "longitude": 3.890394,
         "grand": false,
         "id": 285,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Réservé aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Modeste",
@@ -1429,7 +1607,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 90,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Modeste aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Modeste",
@@ -1437,7 +1616,8 @@
         "longitude": 3.901284,
         "grand": false,
         "id": 286,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Modeste préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Humble",
@@ -1445,7 +1625,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 91,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Humble aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Humble",
@@ -1453,7 +1634,8 @@
         "longitude": 3.812394,
         "grand": false,
         "id": 287,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Humble est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Simple",
@@ -1461,7 +1643,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 92,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Simple aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Simple",
@@ -1469,7 +1652,8 @@
         "longitude": 3.923184,
         "grand": false,
         "id": 288,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Simple trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Naturel",
@@ -1477,7 +1661,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 93,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Naturel passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Naturel",
@@ -1485,7 +1670,8 @@
         "longitude": 3.834512,
         "grand": false,
         "id": 289,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Naturel passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Spontané",
@@ -1493,7 +1679,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 94,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Spontané préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Spontané",
@@ -1501,7 +1688,8 @@
         "longitude": 3.945912,
         "grand": false,
         "id": 290,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Spontané préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Authentique",
@@ -1509,7 +1697,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 95,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Authentique aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Authentique",
@@ -1517,7 +1706,8 @@
         "longitude": 3.756394,
         "grand": false,
         "id": 291,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Authentique ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Véritable",
@@ -1525,7 +1715,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 96,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Véritable adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Véritable",
@@ -1533,7 +1724,8 @@
         "longitude": 3.867184,
         "grand": false,
         "id": 292,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Véritable est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Réel",
@@ -1541,7 +1733,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 97,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Réel adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Réel",
@@ -1549,7 +1742,8 @@
         "longitude": 3.978394,
         "grand": false,
         "id": 293,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Réel passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Sincérité",
@@ -1557,7 +1751,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 98,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sincérité trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Sincérité",
@@ -1565,7 +1760,8 @@
         "longitude": 3.789512,
         "grand": false,
         "id": 294,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sincérité ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Fiducieux",
@@ -1573,7 +1769,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 99,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fiducieux passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Fiducieux",
@@ -1581,7 +1778,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 295,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fiducieux aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Confiant",
@@ -1589,7 +1787,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 100,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Confiant ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Confiant",
@@ -1597,7 +1796,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 296,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Confiant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Optimiste",
@@ -1605,7 +1805,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 101,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Optimiste ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Optimiste",
@@ -1613,7 +1814,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 297,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Optimiste est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Espiègle",
@@ -1621,7 +1823,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 102,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Espiègle passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Espiègle",
@@ -1629,7 +1832,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 298,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Espiègle passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Malicieux",
@@ -1637,7 +1841,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 103,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Malicieux aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Malicieux",
@@ -1645,7 +1850,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 299,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Malicieux ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Taquin",
@@ -1653,7 +1859,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 104,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Taquin aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Taquin",
@@ -1661,7 +1868,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 300,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Taquin aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Blagueur",
@@ -1669,7 +1877,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 105,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Blagueur adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Blagueur",
@@ -1677,7 +1886,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 301,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Blagueur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Rieur",
@@ -1685,7 +1895,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 106,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rieur aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Rieur",
@@ -1693,7 +1904,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 302,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rieur est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Souriant",
@@ -1701,7 +1913,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 107,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Souriant trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Souriant",
@@ -1709,7 +1922,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 303,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Souriant est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Amical",
@@ -1717,7 +1931,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 108,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Amical ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Amical",
@@ -1725,7 +1940,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 304,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Amical aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Chaleureux",
@@ -1733,7 +1949,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 109,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Chaleureux adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Chaleureux",
@@ -1741,7 +1958,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 305,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Chaleureux aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Accueillant",
@@ -1749,7 +1967,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 110,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Accueillant est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Accueillant",
@@ -1757,7 +1976,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 306,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Accueillant ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Hospitalier",
@@ -1765,7 +1985,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 111,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Hospitalier passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Hospitalier",
@@ -1773,7 +1994,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 307,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Hospitalier ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Généreux",
@@ -1781,7 +2003,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 112,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Généreux aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Généreux",
@@ -1789,7 +2012,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 308,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Généreux trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Altruiste",
@@ -1797,7 +2021,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 113,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Altruiste adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Altruiste",
@@ -1805,7 +2030,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 309,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Altruiste aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Bienveillant",
@@ -1813,7 +2039,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 114,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bienveillant passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Bienveillant",
@@ -1821,7 +2048,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 310,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bienveillant passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Compatissant",
@@ -1829,7 +2057,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 115,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Compatissant préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Compatissant",
@@ -1837,7 +2066,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 311,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Compatissant passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Empathique",
@@ -1845,7 +2075,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 116,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Empathique est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Empathique",
@@ -1853,7 +2084,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 312,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Empathique préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Attentif",
@@ -1861,7 +2093,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 117,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Attentif adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Attentif",
@@ -1869,7 +2102,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 313,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Attentif trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Observant",
@@ -1877,7 +2111,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 118,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Observant aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Observant",
@@ -1885,7 +2120,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 314,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Observant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Vigilant",
@@ -1893,7 +2129,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 119,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vigilant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Vigilant",
@@ -1901,7 +2138,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 315,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vigilant est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Prévoyant",
@@ -1909,7 +2147,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 120,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prévoyant aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Prévoyant",
@@ -1917,7 +2156,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 316,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prévoyant trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Prévenant",
@@ -1925,7 +2165,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 121,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prévenant est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Prévenant",
@@ -1933,7 +2174,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 317,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Prévenant aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Soigneux",
@@ -1941,7 +2183,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 122,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Soigneux trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Soigneux",
@@ -1949,7 +2192,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 318,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Soigneux aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Méticuleux",
@@ -1957,7 +2201,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 123,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Méticuleux aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Méticuleux",
@@ -1965,7 +2210,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 319,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Méticuleux aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Ordonné",
@@ -1973,7 +2219,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 124,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Ordonné adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Ordonné",
@@ -1981,7 +2228,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 320,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Ordonné aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Organisé",
@@ -1989,7 +2237,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 125,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Organisé trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Organisé",
@@ -1997,7 +2246,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 321,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Organisé ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Structuré",
@@ -2005,7 +2255,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 126,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Structuré est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Structuré",
@@ -2013,7 +2264,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 322,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Structuré aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Méthodique",
@@ -2021,7 +2273,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 127,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Méthodique trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Méthodique",
@@ -2029,7 +2282,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 323,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Méthodique aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Rigoureux",
@@ -2037,7 +2291,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 128,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rigoureux passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Rigoureux",
@@ -2045,7 +2300,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 324,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Rigoureux trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Sérieux",
@@ -2053,7 +2309,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 129,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sérieux est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Sérieux",
@@ -2061,7 +2318,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 325,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sérieux ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Studieux",
@@ -2069,7 +2327,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 130,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Studieux aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Studieux",
@@ -2077,7 +2336,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 326,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Studieux passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Appliqué",
@@ -2085,7 +2345,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 131,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Appliqué est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Appliqué",
@@ -2093,7 +2354,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 327,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Appliqué aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Travailleur",
@@ -2101,7 +2363,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 132,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Travailleur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Travailleur",
@@ -2109,7 +2372,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 328,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Travailleur trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Laborieux",
@@ -2117,7 +2381,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 133,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Laborieux aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Laborieux",
@@ -2125,7 +2390,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 329,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Laborieux aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Assidu",
@@ -2133,7 +2399,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 134,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Assidu ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Assidu",
@@ -2141,7 +2408,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 330,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Assidu est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Constant",
@@ -2149,7 +2417,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 135,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Constant passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Constant",
@@ -2157,7 +2426,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 331,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Constant passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Stable",
@@ -2165,7 +2435,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 136,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Stable aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Stable",
@@ -2173,7 +2444,8 @@
         "longitude": 4.978394,
         "grand": false,
         "id": 332,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Stable ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Fiable",
@@ -2181,7 +2453,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 137,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fiable est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Fiable",
@@ -2189,7 +2462,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 333,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Fiable préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Loyaliste",
@@ -2197,7 +2471,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 138,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Loyaliste passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Loyaliste",
@@ -2205,7 +2480,8 @@
         "longitude": 4.890394,
         "grand": false,
         "id": 334,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Loyaliste est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Déterminé",
@@ -2213,7 +2489,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 139,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Déterminé passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Déterminé",
@@ -2221,7 +2498,8 @@
         "longitude": 4.901284,
         "grand": false,
         "id": 335,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Déterminé trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Résolu",
@@ -2229,7 +2507,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 140,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Résolu adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Résolu",
@@ -2237,7 +2516,8 @@
         "longitude": 4.812394,
         "grand": false,
         "id": 336,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Résolu ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Tenace",
@@ -2245,7 +2525,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 141,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Tenace passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Tenace",
@@ -2253,7 +2534,8 @@
         "longitude": 4.923184,
         "grand": false,
         "id": 337,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Tenace passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Obstiné",
@@ -2261,7 +2543,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 142,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Obstiné ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Obstiné",
@@ -2269,7 +2552,8 @@
         "longitude": 4.834512,
         "grand": false,
         "id": 338,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Obstiné passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Inflexible",
@@ -2277,7 +2561,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 143,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inflexible aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Inflexible",
@@ -2285,7 +2570,8 @@
         "longitude": 4.945912,
         "grand": false,
         "id": 339,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inflexible aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Immuable",
@@ -2293,7 +2579,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 144,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Immuable adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Immuable",
@@ -2301,7 +2588,8 @@
         "longitude": 4.756394,
         "grand": false,
         "id": 340,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Immuable aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Inébranlable",
@@ -2309,7 +2597,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 145,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inébranlable passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Inébranlable",
@@ -2317,7 +2606,8 @@
         "longitude": 4.867184,
         "grand": false,
         "id": 341,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inébranlable est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Grand Maître",
@@ -2325,7 +2615,8 @@
         "longitude": 4.978394,
         "grand": true,
         "id": 146,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grand Maître trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Grand Maître",
@@ -2333,7 +2624,8 @@
         "longitude": 4.978394,
         "grand": true,
         "id": 342,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grand Maître passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Sage Ancien",
@@ -2341,7 +2633,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 147,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sage Ancien aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Sage Ancien",
@@ -2349,7 +2642,8 @@
         "longitude": 4.789512,
         "grand": false,
         "id": 343,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sage Ancien trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Inspirateur",
@@ -2357,7 +2651,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 148,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inspirateur adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Inspirateur",
@@ -2365,7 +2660,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 344,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Inspirateur trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Motivateur",
@@ -2373,7 +2669,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 149,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Motivateur est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Motivateur",
@@ -2381,7 +2678,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 345,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Motivateur ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Guide",
@@ -2389,7 +2687,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 150,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Guide aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Guide",
@@ -2397,7 +2696,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 346,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Guide trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Mentor",
@@ -2405,7 +2705,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 151,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mentor aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Mentor",
@@ -2413,7 +2714,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 347,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mentor ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Conseiller",
@@ -2421,7 +2723,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 152,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Conseiller aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Conseiller",
@@ -2429,7 +2732,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 348,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Conseiller passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Stratège",
@@ -2437,7 +2741,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 153,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Stratège adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Stratège",
@@ -2445,7 +2750,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 349,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Stratège trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Planificateur",
@@ -2453,7 +2759,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 154,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Planificateur adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Planificateur",
@@ -2461,7 +2768,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 350,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Planificateur aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Organisateur",
@@ -2469,7 +2777,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 155,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Organisateur passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Organisateur",
@@ -2477,7 +2786,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 351,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Organisateur passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Coordinateur",
@@ -2485,7 +2795,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 156,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Coordinateur aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Coordinateur",
@@ -2493,7 +2804,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 352,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Coordinateur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Chef",
@@ -2501,7 +2813,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 157,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Chef aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Chef",
@@ -2509,7 +2822,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 353,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Chef passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Meneur",
@@ -2517,7 +2831,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 158,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Meneur préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Meneur",
@@ -2525,7 +2840,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 354,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Meneur ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Dirigeant",
@@ -2533,7 +2849,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 159,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dirigeant ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Dirigeant",
@@ -2541,7 +2858,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 355,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dirigeant trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Capitaine",
@@ -2549,7 +2867,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 160,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Capitaine passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Capitaine",
@@ -2557,7 +2876,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 356,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Capitaine trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Commandant",
@@ -2565,7 +2885,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 161,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Commandant adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Commandant",
@@ -2573,7 +2894,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 357,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Commandant ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Leader",
@@ -2581,7 +2903,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 162,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Leader adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Leader",
@@ -2589,7 +2912,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 358,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Leader trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Pilote",
@@ -2597,7 +2921,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 163,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Pilote aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Pilote",
@@ -2605,7 +2930,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 359,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Pilote préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Navigateur",
@@ -2613,7 +2939,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 164,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Navigateur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Navigateur",
@@ -2621,7 +2948,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 360,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Navigateur passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Explorateur",
@@ -2629,7 +2957,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 165,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Explorateur trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Explorateur",
@@ -2637,7 +2966,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 361,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Explorateur est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Découvreur",
@@ -2645,7 +2975,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 166,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Découvreur ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Découvreur",
@@ -2653,7 +2984,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 362,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Découvreur passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Voyageur",
@@ -2661,7 +2993,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 167,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Voyageur préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Voyageur",
@@ -2669,7 +3002,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 363,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Voyageur passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Pionnier",
@@ -2677,7 +3011,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 168,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Pionnier aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Pionnier",
@@ -2685,7 +3020,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 364,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Pionnier aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Innovateur",
@@ -2693,7 +3029,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 169,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Innovateur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Innovateur",
@@ -2701,7 +3038,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 365,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Innovateur aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Créateur",
@@ -2709,7 +3047,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 170,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Créateur adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Créateur",
@@ -2717,7 +3056,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 366,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Créateur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Bâtisseur",
@@ -2725,7 +3065,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 171,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bâtisseur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Bâtisseur",
@@ -2733,7 +3074,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 367,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Bâtisseur ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Constructeur",
@@ -2741,7 +3083,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 172,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Constructeur passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Constructeur",
@@ -2749,7 +3092,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 368,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Constructeur est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Artisan",
@@ -2757,7 +3101,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 173,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Artisan passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Artisan",
@@ -2765,7 +3110,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 369,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Artisan aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Forgeron",
@@ -2773,7 +3119,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 174,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Forgeron trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Forgeron",
@@ -2781,7 +3128,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 370,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Forgeron passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Sculpteur",
@@ -2789,7 +3137,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 175,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sculpteur passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Sculpteur",
@@ -2797,7 +3146,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 371,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Sculpteur passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Peintre",
@@ -2805,7 +3155,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 176,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Peintre aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Peintre",
@@ -2813,7 +3164,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 372,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Peintre aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Dessinateur",
@@ -2821,7 +3173,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 177,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dessinateur aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Dessinateur",
@@ -2829,7 +3182,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 373,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Dessinateur trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Écrivain",
@@ -2837,7 +3191,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 178,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Écrivain préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Écrivain",
@@ -2845,7 +3200,8 @@
         "longitude": 5.901284,
         "grand": false,
         "id": 374,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Écrivain trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Conte",
@@ -2853,7 +3209,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 179,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Conte aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Conte",
@@ -2861,7 +3218,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 375,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Conte ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Légende",
@@ -2869,7 +3227,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 180,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Légende aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Légende",
@@ -2877,7 +3236,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 376,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Légende aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Mythe",
@@ -2885,7 +3245,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 181,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mythe trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Mythe",
@@ -2893,7 +3254,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 377,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mythe trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Histoire",
@@ -2901,7 +3263,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 182,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Histoire aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Histoire",
@@ -2909,7 +3272,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 378,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Histoire ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Chronique",
@@ -2917,7 +3281,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 183,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Chronique ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Chronique",
@@ -2925,7 +3290,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 379,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Chronique adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Mémoire",
@@ -2933,7 +3299,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 184,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mémoire est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Mémoire",
@@ -2941,7 +3308,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 380,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mémoire trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Souvenir",
@@ -2949,7 +3317,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 185,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Souvenir passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Souvenir",
@@ -2957,7 +3326,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 381,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Souvenir ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "nom": "Schtroumpf Relique",
@@ -2965,7 +3335,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 186,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Relique aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Relique",
@@ -2973,7 +3344,8 @@
         "longitude": 5.789512,
         "grand": false,
         "id": 382,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Relique trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Ancien",
@@ -2981,7 +3353,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 187,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Ancien trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Ancien",
@@ -2989,7 +3362,8 @@
         "longitude": 5.890394,
         "grand": false,
         "id": 383,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Ancien trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "nom": "Schtroumpf Patriarche",
@@ -2997,7 +3371,8 @@
         "longitude": 5.901284,
         "grand": true,
         "id": 188,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Patriarche passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Patriarche",
@@ -3005,7 +3380,8 @@
         "longitude": 5.901284,
         "grand": true,
         "id": 384,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Patriarche est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Doyen",
@@ -3013,7 +3389,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 189,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Doyen aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Doyen",
@@ -3021,7 +3398,8 @@
         "longitude": 5.812394,
         "grand": false,
         "id": 385,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Doyen aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Vétéran",
@@ -3029,7 +3407,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 190,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vétéran aime schtroumpfer ses amis quand ils sont tristes."
     },
     {
         "nom": "Schtroumpf Vétéran",
@@ -3037,7 +3416,8 @@
         "longitude": 5.923184,
         "grand": false,
         "id": 386,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vétéran passe ses journées à schtroumpfer des idées incroyables."
     },
     {
         "nom": "Schtroumpf Expérimenté",
@@ -3045,7 +3425,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 191,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Expérimenté adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Expérimenté",
@@ -3053,7 +3434,8 @@
         "longitude": 5.834512,
         "grand": false,
         "id": 387,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Expérimenté est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Aguerri",
@@ -3061,7 +3443,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 192,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Aguerri est connu pour schtroumpfer avec humour et bonne humeur."
     },
     {
         "nom": "Schtroumpf Aguerri",
@@ -3069,7 +3452,8 @@
         "longitude": 5.945912,
         "grand": false,
         "id": 388,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Aguerri adore schtroumpfer des histoires avec les autres schtroumpfs."
     },
     {
         "nom": "Schtroumpf Habitué",
@@ -3077,7 +3461,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 193,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Habitué passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Habitué",
@@ -3085,7 +3470,8 @@
         "longitude": 5.756394,
         "grand": false,
         "id": 389,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Habitué préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Routier",
@@ -3093,7 +3479,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 194,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Routier aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "nom": "Schtroumpf Routier",
@@ -3101,7 +3488,8 @@
         "longitude": 5.867184,
         "grand": false,
         "id": 390,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Routier passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Voyageur Ancien",
@@ -3109,7 +3497,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 195,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Voyageur Ancien aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "nom": "Schtroumpf Voyageur Ancien",
@@ -3117,7 +3506,8 @@
         "longitude": 5.978394,
         "grand": false,
         "id": 391,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Voyageur Ancien préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "nom": "Schtroumpf Grand Protecteur",
@@ -3125,7 +3515,8 @@
         "longitude": 5.789512,
         "grand": true,
         "id": 196,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grand Protecteur passe son temps à schtroumpfer et à rêver d'aventures."
     },
     {
         "nom": "Schtroumpf Grand Protecteur",
@@ -3133,7 +3524,8 @@
         "longitude": 5.789512,
         "grand": true,
         "id": 392,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Grand Protecteur aime schtroumpfer des chansons joyeuses avec sa flûte."
     },
     {
         "id": 1234,
@@ -3141,7 +3533,8 @@
         "longitude": 0.0,
         "latitude": 0.0,
         "grand": true,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Cache trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
         "id": 1758119379618,
@@ -3149,7 +3542,8 @@
         "longitude": 2.03781126998055,
         "latitude": 46.619334444206125,
         "grand": false,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Nouveau aime schtroumpfer des aventures magiques dans la forêt."
     },
     {
         "id": 1758119416438,
@@ -3157,7 +3551,8 @@
         "longitude": 1.9443965981499869,
         "latitude": 46.592901120424145,
         "grand": false,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Jeune préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "id": 1758119435848,
@@ -3165,7 +3560,8 @@
         "longitude": 2.002093895457136,
         "latitude": 46.56267581290145,
         "grand": false,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Vieux ne manque jamais une occasion de schtroumpfer la fête."
     },
     {
         "id": 1758119463156,
@@ -3173,7 +3569,8 @@
         "longitude": 1.9938514244132404,
         "latitude": 46.64481150520655,
         "grand": true,
-        "capture": false
+        "capture": false,
+        "description": "Schtroumpf Mafia préfère schtroumpfer tranquillement au bord de la rivière."
     },
     {
         "id": 4321,
@@ -3181,14 +3578,16 @@
         "longitude": 6.0,
         "latitude": 0.0,
         "grand": true,
-        "capture": true
+        "capture": true,
+        "description": "Schtroumpf Kamikaze trouve toujours un moyen de schtroumpfer des solutions."
     },
     {
-        "id": 1758188249692,
-        "nom": "Schtroumpf Digital",
-        "longitude": 3.067411780357361,
-        "latitude": 50.6352030447249,
-        "grand": true,
-        "capture": false
+        "id": 1758186455732,
+        "nom": "Schtroumpf Marin",
+        "longitude": -16.567382812500004,
+        "latitude": 47.01029719233632,
+        "grand": false,
+        "capture": false,
+        "description": "Schtroumpf Marin passe ses journées à schtroumpfer des idées incroyables."
     }
 ]
