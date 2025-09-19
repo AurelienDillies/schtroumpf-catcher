@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte</title>
+
+    <link rel="icon" type="image/png" href="static/image/logo.png">
+
+    <link rel="stylesheet" href="static/css/head-foot.css">
+    <link rel="stylesheet" href="static/css/ajout.css">
+
+    <!--initialisation de la carte leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!---------------------------------------------------------------------------->
+
+    <!--style minimal de la carte (obligatoire)-->
+    <style>
+    
+    </style>
+
+
+</head>
+
+<body>
+    <!-------------------Header----------------->
+    <header>
+        <div class="header-logo">
+            <a href="static/html/index.html">
+                <img src="static/image/logo.png" alt="logo du site">
+                <p>schtroumpf catcher</p>
+            </a>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul>
+                    <li><a href="./">Accueil</a></li>
+                    <li><a href="./carte">Carte</a></li>
+                    <li><a href="./ajout">Ajout d'un schtroumpf</a></li>
+                    <li><a href="./contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="connexion">
+            <a href="./connexion"><img src="static/image/Smurf_house.png" alt="logo de connexion / inscription"></a>
+        </div>
+    </header>
+    <!----------------------------------------->
+
+    <main>
+        <div id="container-ajout"> <!--contient div carte et div formulaire-->
+
+            <div id="mapAjout"></div>
+
+            <script>
+                // Carte d'ajout
+                var mapAjout = L.map('mapAjout', {
+                    center: [46.7, 2.8],
+                    zoom: 9,
+                    minZoom: 1.4,
+                    maxZoom: 18
+                });
+
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                    noWrap: true,
+                    bounds: [[-90, -180], [90, 180]]
+                }).addTo(mapAjout);
+
+                var pointBlanc = L.icon({
+                    iconUrl: '/static/image/point-blanc.png',
+                    iconSize: [38, 95],
+                    iconAnchor: [22, 94],
+                    popupAnchor: [-3, -76]
+                });
+
+                var pointBleu = L.icon({
+                    iconUrl: 'static/image/point-bleu.png',
+
+                    iconSize: [38, 95], // size of the icon
+                    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+                    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+                });
+
+                var pointRouge = L.icon({
+                    iconUrl: 'static/image/point-rouge.png',
+
+                    iconSize: [38, 95], // size of the icon
+                    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+                    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+                });
+
+                function fetchData() {
+                fetch("http://127.0.0.1:8000/items/")
+                    .then(response => response.json())
+                    .then(data => {
+                        data.forEach(schtroumpf => {
+                            if (!schtroumpf.capture) {
+                                let icon = schtroumpf.grand ? pointRouge : pointBleu;
+                                L.marker([schtroumpf.latitude, schtroumpf.longitude], { icon: icon })
+                                    .addTo(mapAjout)
+                                    .bindPopup(`
+                                        <h3>${schtroumpf.nom}</h3>
+                                        <p>${schtroumpf.description}</p>
+                                        <button onclick="captureSchtroumpf(${schtroumpf.id})">Attraper</button>
+                                    `);
+                            }
+                        });
+                    })
+                    .catch(error => console.error("Failed to fetch data:", error));
+            }
+
+            fetchData();
+
+                // Marqueur déplaçable
+                var marker = L.marker([46.7, 2.8], { icon: pointBlanc, draggable: true }).addTo(mapAjout);
+
+                marker.on("drag", function(e) {
+                    var pos = e.target.getLatLng();
+                    document.getElementById("latitude").value = pos.lat.toFixed(6);
+                    document.getElementById("longitude").value = pos.lng.toFixed(6);
+                });
+
+                // Si inputs vides au chargement, remplir avec position initiale
+                document.addEventListener("DOMContentLoaded", function () {
+                    var latInput = document.getElementById("latitude");
+                    var lngInput = document.getElementById("longitude");
+                    if (!latInput.value) latInput.value = 46.7;
+                    if (!lngInput.value) lngInput.value = 2.8;
+                });
+
+                // Ajouter un schtroumpf (POST)
+                document.addEventListener("DOMContentLoaded", function () {
+                    document.getElementById('boutonAjouter').addEventListener('click', async function () {
+                        const latitude = parseFloat(document.getElementById('latitude').value);
+                        const longitude = parseFloat(document.getElementById('longitude').value);
+                        const nom = document.getElementById('nom').value.trim();
+                        const descriptionInput = document.getElementById('description');
+                        const description = descriptionInput ? descriptionInput.value.trim() : "";
+                        const grand = document.getElementById('grand').checked;
+
+                        // Validation basique
+                        if (!nom) { alert("Donne un nom au schtroumpf."); return; }
+                        if (Number.isNaN(latitude) || Number.isNaN(longitude)) { alert("Position invalide."); return; }
+
+                        const newSchtroumpf = {
+                            nom: nom,
+                            latitude: latitude,
+                            longitude: longitude,
+                            grand: grand,
+                            capture: false,
+                            description: description || "Petit schtroumpf prêt à schtroumpfer des aventures."
+                        };
+
+                        try {
+                            const endpoint = window.location.origin + "/items/"; // s'adapte si host change
+                            const response = await fetch(endpoint, {
+                                method: "POST",
+                                headers: { "Content-Type": "application/json" },
+                                body: JSON.stringify(newSchtroumpf)
+                            });
+
+                            if (!response.ok) {
+                                // essayer d'afficher le message du serveur si présent
+                                let errText = "Erreur lors de l’ajout";
+                                try { const j = await response.json(); errText = j.detail || JSON.stringify(j); } catch (e) {}
+                                throw new Error(errText);
+                            }
+
+                            const created = await response.json();
+                            alert("Schtroumpf ajouté avec succès : " + created.nom);
+                            // optionnel : rediriger vers la carte
+                            window.location.href = window.location.origin + "/carte";
+                        } catch (error) {
+                            console.error("Erreur ajout schtroumpf :", error);
+                            alert("Impossible d’ajouter le Schtroumpf : " + error.message);
+                        }
+                    });
+                });
+            </script>
+
+            <div id="formulaire-ajout">
+                <div >
+                    <h4 id ="titre-formulaire">Ajouter un Schtroumpf</h4>
+                    <p id ="sous-titre">Déplacez le marqueur pour choisir la position</p>
+                </div>
+                <form>
+                    <div class="element-formulaire">
+                        <label for="latitude">Latitude</label>
+                        <input type="text" id="latitude" name="latitude" readonly>
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="longitude">Longitude</label>
+                        <input type="text" id="longitude" name="longitude" readonly>
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="nom">Nom du Schtroumpf :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom du schtroumpf">
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="nom">Description du Schtroumpf :</label>
+                        <input type="text" id="description" name="description" placeholder="Description du schtroumpf">
+                    </div>
+                    <div class="element-formulaire">
+                        <label for="grand">Grand Schtroumpf ? :</label>
+                        <input type="checkbox" id="grand" name="grand">
+                    </div>
+                    <div class="centre">
+                        <button type="button" id="boutonAjouter">Ajouter</button>
+                    </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!-----------------------Footer----------------------------->
+    <footer>
+        <div class="copyright">
+            <p><span id="current-year"></span> &copy; Schtroumpf Catcher. Tous droits réservés.</p>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="./contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        // Mise à jour de l'année dans le footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

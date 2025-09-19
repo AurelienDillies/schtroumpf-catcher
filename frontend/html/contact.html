@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="icon" type="image/png" href="static/image/logo.png">
+
+    <link rel="stylesheet" href="static/css/head-foot.css">
+    <link rel="stylesheet" href="static/css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="static/html/index.html">
+                <img src="static/image/logo.png" alt="logo du site">
+                <p>schtroumpf catcher</p>
+            </a>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul>
+                    <li><a href="./">Accueil</a></li>
+                    <li><a href="./carte">Carte</a></li>
+                    <li><a href="./ajout">Ajout d'un schtroumpf</a></li>
+                    <li><a href="./contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="connexion">
+            <a href="./connexion"><img src="static/image/Smurf_house.png" alt="logo de connexion / inscription"></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="formulaire-support">
+            <form action="">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p><span id="current-year"></span> &copy; Schtroumpf Catcher. Tous droits réservés.</p>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="./contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        // Mise à jour de l'année dans le footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
