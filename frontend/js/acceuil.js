@@ -54,3 +54,10 @@ function fetchDataCounters() {
 
 // lancer au chargement
 document.addEventListener("DOMContentLoaded", fetchDataCounters);
+
+
+// secret
+  document.querySelector(".secret").addEventListener("click", function () {
+    // Ajoute la classe sur <body>
+    document.body.classList.add("smurf-cursor");
+  });

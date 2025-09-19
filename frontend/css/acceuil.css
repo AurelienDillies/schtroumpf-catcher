@@ -127,3 +127,14 @@ main::before {
     background-color: #1e3a5c;
     box-shadow: 0 6px 20px rgba(30, 58, 92, 0.18);
 }
+
+
+
+body:not(.smurf-cursor) .secret {
+  cursor: help;
+}
+
+body.smurf-cursor, 
+body.smurf-cursor * {
+  cursor: url("../../static/image/pointer-smurf.png") 0 0, auto !important;
+}
