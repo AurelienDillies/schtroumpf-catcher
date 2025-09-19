@@ -11,18 +11,14 @@
     <link rel="stylesheet" href="static/css/head-foot.css">
     <link rel="stylesheet" href="static/css/ajout.css">
 
+    <script src="static/js/ajout.js" defer></script>
+
     <!--initialisation de la carte leaflet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <!---------------------------------------------------------------------------->
-
-    <!--style minimal de la carte (obligatoire)-->
-    <style>
-
-    </style>
-
 
 </head>
 
@@ -71,11 +67,11 @@
                     bounds: [[-90, -180], [90, 180]]
                 }).addTo(mapAjout);
 
-                var pointBlanc = L.icon({
-                    iconUrl: '/static/image/point-blanc.png',
+                var pointBlanc = L.divIcon({
+                    className: "point-blanc",
                     iconSize: [38, 95],
                     iconAnchor: [22, 94],
-                    popupAnchor: [-3, -76]
+                    html: '<img src="/static/image/point-blanc.png" alt="point blanc">'
                 });
 
                 var pointBleu = L.icon({
